@@ -81,9 +81,21 @@ export interface Holotape extends BaseEntry {
   summary?: string;
 }
 
+export type WeaponClass = 'ballistic' | 'energy' | 'heavy' | 'melee' | 'unarmed';
+
+export const WEAPON_CLASS_LABELS: Record<WeaponClass, string> = {
+  ballistic: 'Ballistic',
+  energy: 'Energy',
+  heavy: 'Heavy',
+  melee: 'Melee',
+  unarmed: 'Unarmed',
+};
+
 export interface UniqueItem extends BaseEntry {
   category: 'unique';
   itemType: 'weapon' | 'armor';
+  /** Weapons only. */
+  weaponClass?: WeaponClass;
   baseItem?: string;
   effect: string;
   acquisition: 'found' | 'vendor' | 'reward';

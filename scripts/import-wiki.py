@@ -1,8 +1,8 @@
-"""Import Fallout 4 magazines and quests from the Fallout Wiki.
+"""Import Fallout 4 magazines, quests and unique weapons from the Fallout Wiki.
 
-Downloads the wiki's "Fallout 4 magazines" and "Fallout 4 quests" overview
-pages (wikitext via the MediaWiki API), parses their tables, and updates
-src/data/magazines.json and src/data/quests.json.
+Downloads the wiki's "Fallout 4 magazines", "Fallout 4 quests" and "Fallout 4
+unique weapons" overview pages (wikitext via the MediaWiki API), parses their
+tables, and updates src/data/magazines.json, quests.json and uniques.json.
 
 Re-running is safe: entries already in the JSON files are kept as-is (so hand
 edits survive) and only entries missing from them are added. Delete an entry
@@ -231,20 +231,83 @@ def build_quests(existing):
         out.append(e)
     return out
 
+# ---- unique weapons ----
+WEAPON_CLASSES = {'Ballistic': 'ballistic', 'Energy': 'energy', 'Heavy': 'heavy', 'Melee': 'melee', 'Unarmed': 'unarmed'}
+
+def build_unique_weapons(existing, quests):
+    w = wikitext('Fallout_4_unique_weapons')
+    quest_by_id = {q['id']: q for q in quests}
+    keep = {e['id']: e for e in existing}
+    out = []
+    for m in re.finditer(r'^==\s*(\w+) weapons\s*==\s*$', w, re.M):
+        wclass = WEAPON_CLASSES.get(m.group(1))
+        if not wclass:
+            continue
+        start = w.index('{|', m.end()); end = w.index('\n|}', start) + 3
+        for cells in rows(w[start:end]):
+            if len(cells) < 4:
+                print('skip weapon row', cells, file=sys.stderr); continue
+            name_raw, base_raw, loc_raw, effect_raw = cells[:4]
+            # {{Icon|FO4FH}} Far Harbor, {{Icon|FO4NW}} Nuka-World, {{Icon|FO4AUT}} Automatron, ...
+            if re.search(r'\{\{Icon\|FO4[A-Z]', name_raw):
+                continue
+            name = clean(name_raw).split('\n')[0]
+            wid = f'uw-{slug(name)}'
+            if wid in keep:
+                out.append(keep.pop(wid)); continue
+            where = clean(loc_raw).replace('\n', ' ')
+            targets = link_targets(loc_raw)
+            quest = next((quest_by_id[f'quest-{slug(t)}'] for t in targets if f'quest-{slug(t)}' in quest_by_id), None)
+            l = find_loc(targets)
+            low = where.lower()
+            acquisition = 'vendor' if 'sold by' in low else 'reward' if 'reward' in low else 'found'
+            e = {
+                'id': wid,
+                'name': name,
+                'category': 'unique',
+                'itemType': 'weapon',
+                'weaponClass': wclass,
+                'location': l['name'] if l else quest['location'] if quest and 'coords' in quest else 'See details',
+                'where': where,
+            }
+            base = clean(base_raw)
+            if base and base != '-':
+                e['baseItem'] = base
+            e['effect'] = clean(effect_raw).replace('\n', ' ')
+            e['acquisition'] = acquisition
+            coords = coords_of(l) if l else quest.get('coords') if quest else None
+            if coords:
+                e['coords'] = dict(coords); e['coordsApprox'] = True
+            else:
+                unmatched.add(f'{name} ({where[:50]})')
+            if quest:
+                e['relatedQuest'] = quest['id']
+            e['verified'] = True
+            e['source'] = WIKI + (link_targets(name_raw) or [name])[0].replace(' ', '_')
+            out.append(e)
+    for e in keep.values():
+        print('existing unique item not on wiki list, kept:', e['id'], file=sys.stderr)
+        out.append(e)
+    return out
+
 def load(name):
     return json.loads((data_dir / name).read_text())
 
 def save(name, entries):
     (data_dir / name).write_text(json.dumps(entries, indent=2, ensure_ascii=False) + '\n')
 
-old_mags, old_quests = load('magazines.json'), load('quests.json')
+old_mags, old_quests, old_uniques = load('magazines.json'), load('quests.json'), load('uniques.json')
 mags = build_magazines(old_mags)
 quests = build_quests(old_quests)
+uniques = build_unique_weapons(old_uniques, quests)
 save('magazines.json', mags)
 save('quests.json', quests)
+save('uniques.json', uniques)
 
 print(f'magazines: {len(mags)} ({len(mags) - len(old_mags)} added)')
 print(f'quests: {len(quests)} ({len(quests) - len(old_quests)} added)')
-print('without coords: magazines', sum('coords' not in m for m in mags), '/ quests', sum('coords' not in q for q in quests))
+print(f'unique items: {len(uniques)} ({len(uniques) - len(old_uniques)} added)')
+print('without coords: magazines', sum('coords' not in m for m in mags), '/ quests', sum('coords' not in q for q in quests),
+      '/ unique items', sum('coords' not in u for u in uniques))
 if unmatched:
     print('locations not in locations.json:', ', '.join(sorted(unmatched)))

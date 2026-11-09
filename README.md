@@ -2,7 +2,7 @@
 
 ## Data
 
-Entries live in `src/data/*.json`. Magazines and quests are imported from the
+Entries live in `src/data/*.json`. Magazines, quests and unique weapons are imported from the
 [Fallout Wiki](https://fallout.fandom.com/) overview pages:
 
 ```sh

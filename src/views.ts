@@ -1,4 +1,4 @@
-import type { Entry, Faction } from './types';
+import { WEAPON_CLASS_LABELS, type Entry, type Faction } from './types';
 
 export type TopTab = 'STAT' | 'INV' | 'DATA' | 'MAP' | 'RADIO';
 export const TOP_TABS: TopTab[] = ['STAT', 'INV', 'DATA', 'MAP', 'RADIO'];
@@ -49,10 +49,11 @@ export const SUB_TABS: Record<TopTab, View[]> = {
     { kind: 'list', label: 'HOLOTAPES', match: (e) => e.category === 'holotape' },
     {
       kind: 'list',
-      label: 'UNIQUES',
-      match: (e) => e.category === 'unique',
-      groupBy: (e) => (e.category === 'unique' ? (e.itemType === 'weapon' ? 'Weapons' : 'Armor & Apparel') : ''),
+      label: 'WEAPONS',
+      match: (e) => e.category === 'unique' && e.itemType === 'weapon',
+      groupBy: (e) => (e.category === 'unique' && e.weaponClass ? WEAPON_CLASS_LABELS[e.weaponClass] : 'Other'),
     },
+    { kind: 'list', label: 'APPAREL', match: (e) => e.category === 'unique' && e.itemType === 'armor' },
     {
       kind: 'list',
       label: 'MISC',

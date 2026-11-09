@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { CATEGORY_LABELS, FACTION_LABELS, type Entry } from '../types';
+import { CATEGORY_LABELS, FACTION_LABELS, WEAPON_CLASS_LABELS, type Entry } from '../types';
 import { actions, useProfile, useSettings } from '../state/store';
 import { ENTRY_BY_ID } from '../lib/loadData';
 import { entryCoords } from '../lib/coords';
@@ -62,7 +62,9 @@ function CategoryFields({ e, onJump }: { e: Entry; onJump?: (id: string) => void
     case 'unique':
       return (
         <>
-          <Field label="TYPE">{e.itemType.toUpperCase()}</Field>
+          <Field label="TYPE">
+            {e.weaponClass ? `${WEAPON_CLASS_LABELS[e.weaponClass]} weapon` : e.itemType === 'weapon' ? 'Weapon' : 'Armor & apparel'}
+          </Field>
           <Field label="BASE ITEM">{e.baseItem}</Field>
           <Field label="EFFECT">{e.effect}</Field>
           <Field label="OBTAINED">{{ found: 'Found in world', vendor: 'Sold by vendor', reward: 'Quest reward' }[e.acquisition]}</Field>
