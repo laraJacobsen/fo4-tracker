@@ -1,3 +1,20 @@
+# Fallout 4 tracker
+
+## Data
+
+Entries live in `src/data/*.json`. Magazines and quests are imported from the
+[Fallout Wiki](https://fallout.fandom.com/) overview pages:
+
+```sh
+npm run data:wiki
+```
+
+Re-running only adds entries that are missing; existing entries (and any hand
+edits to them) are left alone. Delete an entry to have it regenerated.
+Creation Club content is skipped.
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,1 +1,2388 @@
-[]
+[
+  {
+    "id": "mag-astoundingly-awesome-tales-06",
+    "name": "Astoundingly Awesome Tales #6: Attack Of The Fishmen",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 6,
+    "location": "Skylanes Flight 1981",
+    "where": "On the restroom toilet below the cockpit.",
+    "effect": "Do +5% damage against Mirelurks.",
+    "coords": {
+      "x": 1064,
+      "y": 240.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-14",
+    "name": "Astoundingly Awesome Tales #14: Rise of the Mutants!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 14,
+    "location": "Trinity Church",
+    "where": "On the lectern, by the steamer trunk at the East side of the church interior. (may respawn)",
+    "effect": "Do +5% damage against Super Mutants.",
+    "coords": {
+      "x": 1137.0,
+      "y": 1020.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-07",
+    "name": "Astoundingly Awesome Tales #7: Deep Sea Terror! \"Sinister Seafood Strikes!!\"",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 7,
+    "location": "Outpost Zimonja",
+    "where": "On the workshop.",
+    "effect": "Do +5% damage at night.",
+    "coords": {
+      "x": 1019.2,
+      "y": 84.6
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-04",
+    "name": "Astoundingly Awesome Tales #4: Invasion of the Zetans",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 4,
+    "location": "Hubris Comics",
+    "where": "Top floor (the film studio), in the “star” restroom (south east corner of room), on a table under an irradiated blood pack, near the steamer trunk. (may respawn)",
+    "effect": "Do +5% damage with the Alien Blaster.",
+    "coords": {
+      "x": 1157,
+      "y": 1013.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-09",
+    "name": "Astoundingly Awesome Tales #9: When Apes Go Bananas!!! \"A Gorilla Ate My Patrol Car!\"",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 9,
+    "location": "Railroad HQ",
+    "where": "Inside Railroad HQ (Freedom Trail mission must be completed to open the Railroad HQ), on a metal desk in the brick crypt area, West area of the room.",
+    "effect": "Do +5% damage with the Cryolator.",
+    "coords": {
+      "x": 1353.5,
+      "y": 867
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-01",
+    "name": "Astoundingly Awesome Tales #1: My Brain and I... (A Twisted Love Tale)",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 1,
+    "location": "Boston mayoral shelter",
+    "where": "Lower level bedroom, Southwest corner, on a small table.",
+    "effect": "Regenerate 1 point of health per minute.",
+    "coords": {
+      "x": 318.5,
+      "y": 974.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-08",
+    "name": "Astoundingly Awesome Tales #8: The Man Who Could Stop Time",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 8,
+    "location": "Vault 114",
+    "where": "In the living quarters area, on a container in the blocked corridor, under the “Laundry” sign.",
+    "effect": "Gain +5 Action Points.",
+    "coords": {
+      "x": 1171.5,
+      "y": 986.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-03",
+    "name": "Astoundingly Awesome Tales #3: Attack of the Metal Men",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 3,
+    "location": "Dunwich Borers",
+    "where": "At the bottom of the pit below terminal #3, on a table near the steamer trunk.",
+    "effect": "Take 5% less damage from robots.",
+    "coords": {
+      "x": 1623,
+      "y": 313.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-12",
+    "name": "Astoundingly Awesome Tales #12: Have Dog, Will Travel!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 12,
+    "location": "The Institute",
+    "where": "On the triangular table of the outside balcony, accessed via Holdren's quarters, North of atrium. (may respawn)",
+    "effect": "Your canine companion permanently takes 10% less damage.",
+    "coords": {
+      "x": 972.5,
+      "y": 838
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-05",
+    "name": "Astoundingly Awesome Tales #5: The Mad Russian's Revenge",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 5,
+    "location": "Pickman Gallery",
+    "where": "To the right or of the steamer trunk (or on the floor infront) in the last tunnel chamber, where you meet Pickman.",
+    "effect": "Gain +5 Poison Resistance.",
+    "coords": {
+      "x": 1301.5,
+      "y": 836.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-02",
+    "name": "Astoundingly Awesome Tales #2: The Starlet Sniper",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 2,
+    "location": "Coast Guard Pier",
+    "where": "In the basement, on the toilet inside the locked cell (expert lock or use terminal to unlock the cell), by the secured storage room.",
+    "effect": "Do +5% damage with scoped weapons.",
+    "coords": {
+      "x": 843,
+      "y": 1256.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-13",
+    "name": "Astoundingly Awesome Tales #13: Curse of the Burned!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 13,
+    "location": "Crater of Atom",
+    "where": "Top floor (up the stairs) of the central metal shack built into the Western rocks. (may respawn)",
+    "effect": "Do +5% damage against ghouls.",
+    "coords": {
+      "x": 329,
+      "y": 1755.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-10",
+    "name": "Astoundingly Awesome Tales #10: Giant Insects Invade",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 10,
+    "location": "Sentinel site",
+    "where": "In the first main area right at the start of the sentinel site, in one of the outer hallway areas, under some stairs, this magazine is found on the desk as part of a large row of work terminals on the Eastern side of the facility.",
+    "effect": "Gain +5 Radiation Resistance.",
+    "coords": {
+      "x": 485,
+      "y": 1953
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-astoundingly-awesome-tales-11",
+    "name": "Astoundingly Awesome Tales #11: Rise of the Radiated",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Astoundingly Awesome Tales",
+    "issue": 11,
+    "location": "East Boston Preparatory School",
+    "where": "On a desk in the computer room, top floor, southeast corner. (may respawn).",
+    "effect": "RadAway heals +5% radiation damage.",
+    "coords": {
+      "x": 1456.5,
+      "y": 764
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01",
+    "name": "Grognak the Barbarian #1: Blood on the Harp",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Wicked Shipping Fleet Lockup",
+    "where": "South end of the main warehouse in the small office, on the desk with the key.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 448,
+      "y": 361
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-2",
+    "name": "Grognak the Barbarian #1: Cometh the Trickster",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Bus and apartment wreckage north of Andrew Station",
+    "where": "On the bed of the comic book fan's apartment, with the bus crashed into it, close to Andrew Street Station.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1264.2,
+      "y": 1154.8
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-3",
+    "name": "Grognak the Barbarian #1: Jungle of the Bat-Babies",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Sanctuary Hills",
+    "where": "On the kitchen table of the Sole Survivor's house, where Codsworth resides.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 476.5,
+      "y": 179.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-4",
+    "name": "Grognak the Barbarian #1: In the Bosom of the Corsair Queen",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Corvega assembly plant",
+    "where": "Assembly level (top floor), in the Raider metal hut accessed via catwalk bridge, near Steamer Trunk.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 829.5,
+      "y": 613.8
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-5",
+    "name": "Grognak the Barbarian #1: Demon Slaves, Demon Sands",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "* Vault 75, * Vault 81",
+    "where": "* On the bed, inside the Overseer's office, top floor. * Given as a reward by Katy the teacher for completing Miscellaneous Quest: Short Stories in the Classroom.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1249.8,
+      "y": 368.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-6",
+    "name": "Grognak the Barbarian #1: Enter Maula: War Maiden of Mars",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Boston Common",
+    "where": "In the bandstand, near the skeleton, close to Park Street Station entrance.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1203,
+      "y": 991
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-7",
+    "name": "Grognak the Barbarian #1: Fatherless Cur!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Mass Pike Interchange",
+    "where": "On the toilet inside the Gunner camp, by the Power Armor Station.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 567,
+      "y": 1127.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-8",
+    "name": "Grognak the Barbarian #1: Lost in the Snows of Lust",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Back Street Apparel",
+    "where": "On a living room table in the ruined upstairs apartment, near the TV and safe.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1020,
+      "y": 974
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-9",
+    "name": "Grognak the Barbarian #1: In the Lair of the Virgin Eater",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Hyde Park",
+    "where": "In the raider camp on the roof of the buildings south of the main drag.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1155,
+      "y": 1446
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-grognak-the-barbarian-01-10",
+    "name": "Grognak the Barbarian #1: What Sorcery This?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Grognak the Barbarian",
+    "issue": 1,
+    "location": "Museum of Witchcraft",
+    "where": "On the table in the “dungeon” room, upper floor, south wall.",
+    "effect": "Critical Hits with unarmed and melee attacks do +5% damage.",
+    "coords": {
+      "x": 1756,
+      "y": 288
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-10",
+    "name": "Guns and Bullets #10: The Future of Hunting?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 10,
+    "location": "BADTFL regional office",
+    "where": "On a desk in the chief's office, bullpen room in the western part of the building.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1182.5,
+      "y": 702.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-05",
+    "name": "Guns and Bullets #5: Lasers & Hunting: Acceptable Overkill",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 5,
+    "location": "Fort Hagen",
+    "where": "On the oval table in the kitchen area, top floor, southeast area.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 420.5,
+      "y": 899
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-02",
+    "name": "Guns and Bullets #2: Little Guns For Little Ladies",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 2,
+    "location": "Fraternal Post 115",
+    "where": "On the lectern in the stage area, by the American flag and sandbags.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 895.9,
+      "y": 834.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-04",
+    "name": "Guns and Bullets #4: Street Guns of Detroit",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 4,
+    "location": "Gunners plaza",
+    "where": "Top floor lounge, in the table surrounded by sofas, south mezzanine offices.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 992.2,
+      "y": 1467
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-05-2",
+    "name": "Guns and Bullets #5: Avoid those Pesky Gun Laws!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 5,
+    "location": "Rook family house",
+    "where": "Inside Barney's bunker, on a metal desk near the lantern and filing cabinet.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1836,
+      "y": 193.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-01",
+    "name": "Guns and Bullets #1: The Moon: A Communist Doomsday Device?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 1,
+    "location": "Quincy ruins",
+    "where": "On the desk with the terminal, elevated freeway Gunners camp, between the two big-rig trailers.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1311.5,
+      "y": 1520
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-07",
+    "name": "Guns and Bullets #7: Take Aim, Army Style",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 7,
+    "location": "South Boston military checkpoint",
+    "where": "Inside the checkpoint, on a metal desk, east wall.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1214,
+      "y": 1213.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-08",
+    "name": "Guns and Bullets #8: Bear Proofing Your Campsite:...",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 8,
+    "location": "Cambridge Police Station",
+    "where": "In a locked safe in the station chief's office. Available only after Brotherhood reinforcements arrive at the station.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 876,
+      "y": 777
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-08-2",
+    "name": "Guns and Bullets #8: Plasma - The Weapon of Tomorrow",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 8,
+    "location": "The Castle",
+    "where": "On the radio operator's desk, in the middle of the Castle grounds, outside.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1474.5,
+      "y": 1218
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-guns-and-bullets-05-3",
+    "name": "Guns and Bullets #5: Guide to hunting commies!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Guns and Bullets",
+    "issue": 5,
+    "location": "Ticonderoga",
+    "where": "On the desk of the corner office, northwest corner, top floor. This location is only accessible after completing Boston After Dark.",
+    "effect": "+5% ballistic weapons Critical Hit damage.",
+    "coords": {
+      "x": 1135.5,
+      "y": 844
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-hot-rodder-01",
+    "name": "Hot Rodder #1: Flame Job!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Hot Rodder",
+    "issue": 1,
+    "location": "Robotics disposal ground",
+    "where": "Inside the small concrete hut, on the desk with the terminal on it.",
+    "effect": "Unlocks Flame Job paint for Power Armor.",
+    "coords": {
+      "x": 686.2,
+      "y": 85.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-hot-rodder-02",
+    "name": "Hot Rodder #2: Shark Paint Schemes!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Hot Rodder",
+    "issue": 2,
+    "location": "Atom Cats garage",
+    "where": "On the bedside table in Zeke's trailer.",
+    "effect": "Unlocks Shark paint for Power Armor.",
+    "coords": {
+      "x": 1398,
+      "y": 1404.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-hot-rodder-03",
+    "name": "Hot Rodder #3: Hot Pink!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Hot Rodder",
+    "issue": 3,
+    "location": "Milton parking garage",
+    "where": "Inside the parking lot, to the west of the Hospital. Top floor sleeping quarters, near the prize cells.",
+    "effect": "Unlocks Hot Pink paint for Power Armor.",
+    "coords": {
+      "x": 1015,
+      "y": 1304.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-la-coiffe-01",
+    "name": "La Coiffe #1: Megaton Hair",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "La Coiffe",
+    "issue": 1,
+    "location": "Fallon's department store",
+    "where": "In the upper floor septagonal room, on the table in the center of the room, west side of the building near the roof exit.",
+    "effect": "Unlocks Megaton haircut.",
+    "coords": {
+      "x": 1001.8,
+      "y": 1339.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-la-coiffe-02",
+    "name": "La Coiffe #2: The Hornet's Nest",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "La Coiffe",
+    "issue": 2,
+    "location": "Charlestown Laundry",
+    "where": "In a shopping basket on top of one of the washing machines. (may respawn).",
+    "effect": "Unlocks The Hornet's Nest haircut.",
+    "coords": {
+      "x": 1274.5,
+      "y": 761
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-01",
+    "name": "Live & Love #1: Fabulous 1st Issue: Life Long Best Friends!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 1,
+    "location": "Faneuil Hall",
+    "where": "On the small table, attic level, just after climbing the main staircase.",
+    "effect": "Companions permanently gain +10 health.",
+    "coords": {
+      "x": 1308.5,
+      "y": 905
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-02",
+    "name": "Live & Love #2: Nuke-The-Man",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 2,
+    "location": "College Square station",
+    "where": "On the safe behind the counter, at the station entrance interior, before descending the stairs.",
+    "effect": "Companions permanently inflict +5% damage.",
+    "coords": {
+      "x": 872,
+      "y": 747.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-03",
+    "name": "Live & Love #3: Trim the Fat",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 3,
+    "location": "WRVR broadcast station",
+    "where": "On the table near the recording desk and wall computer.",
+    "effect": "Companions permanently gain +10 carry weight.",
+    "coords": {
+      "x": 794,
+      "y": 1301
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-12",
+    "name": "Live & Love #12: The Secretary Charmer",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 12,
+    "location": "Fiddler's Green Trailer Estates",
+    "where": "Inside the caravan trailer, east side of the estates (and swimming pool).",
+    "effect": "Permanently gain +25% XP from persuading women.",
+    "coords": {
+      "x": 506,
+      "y": 858.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-14",
+    "name": "Live & Love #14: Talk Yourself Sober",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 14,
+    "location": "Revere Beach station",
+    "where": "On the concrete blocks by the cooking pot and steamer trunk, inside the promenade building, upper floor.",
+    "effect": "Permanently gain +1 Luck from alcohol when traveling with a companion.",
+    "coords": {
+      "x": 1548.5,
+      "y": 627
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-04",
+    "name": "Live & Love #4: Advice From Married Men",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 4,
+    "location": "The Third Rail in Goodneighbor",
+    "where": "On top of the toilet, The Third Rail restroom, entrance area (north).",
+    "effect": "Companions permanently gain +5 Damage Resistance and Energy Resistance.",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-07",
+    "name": "Live & Love #7: Beware The Man Handler",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 7,
+    "location": "Bunker Hill",
+    "where": "At the top of the monument.",
+    "effect": "Permanently gain +25% XP from persuading men.",
+    "coords": {
+      "x": 1242,
+      "y": 750.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-08",
+    "name": "Live & Love #8: An Experience to Remember",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 8,
+    "location": "Hotel Rexford in Goodneighbor",
+    "where": "On the bar counter, just right of the entrance, in the lobby of Hotel Rexford.",
+    "effect": "Permanently gain +5% XP while adventuring with a companion.",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-live-and-love-09",
+    "name": "Live & Love #9: I Married a Robot!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Live & Love",
+    "issue": 9,
+    "location": "Diamond City schoolhouse",
+    "where": "Inside the schoolhouse bedroom, ground floor, on a cinder block.",
+    "effect": "Robot companions permanently inflict +5% damage.",
+    "coords": {
+      "x": 965.5,
+      "y": 1086.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-05",
+    "name": "Massachusetts Surgical Journal #5: Better Living Through Chems",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 5,
+    "location": "Cabot House",
+    "where": "Top floor, first bedroom on the east side, on the wooden desk.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1245,
+      "y": 845.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-08",
+    "name": "Massachusetts Surgical Journal #8: Cryo Technology: Haven or Tomb!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 8,
+    "location": "Greater Mass Blood Clinic",
+    "where": "In the analyst's room (accessed via the wall terminal), on the desk.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 422.5,
+      "y": 950
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-16",
+    "name": "Massachusetts Surgical Journal #16: ER Nurses Confess All",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 16,
+    "location": "Medford Memorial Hospital",
+    "where": "In the filing and storage room, west side balcony above the main lobby, one floor up from the ground.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1187,
+      "y": 395
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-13",
+    "name": "Massachusetts Surgical Journal #13: Finding Your Funny Bone",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 13,
+    "location": "Boston Public Library",
+    "where": "In the overdue book vending machine (northwest area). Purchase with 50 Tokens via the terminal.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1074.6,
+      "y": 1035
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-03",
+    "name": "Massachusetts Surgical Journal #3: Happy Sedation Special",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 3,
+    "location": "Sandy Coves Convalescent Home",
+    "where": "Behind the security door, next to the wall of safes, near the reception",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1796,
+      "y": 245
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-16-2",
+    "name": "Massachusetts Surgical Journal #16: Let's Play Doctor!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 16,
+    "location": "Parsons State Insane Asylum",
+    "where": "Inside Lorenzo's living quarters, at the very bottom floor of the facility.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1509.5,
+      "y": 184.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-13-2",
+    "name": "Massachusetts Surgical Journal #13: Pay Now, Get Better Later!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 13,
+    "location": "Greenetech Genetics",
+    "where": "On the table between the two red sofas and dark carpet, in the long room three storeys up the north side of the building.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1082.5,
+      "y": 856
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-09",
+    "name": "Massachusetts Surgical Journal #9: Raised by Robots",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 9,
+    "location": "Med-Tek Research",
+    "where": "On the large central laboratory table, lowest floor of the sub-level, where the Prevent is located.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 1280.5,
+      "y": 435.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-massachusetts-surgical-journal-15",
+    "name": "Massachusetts Surgical Journal #15: Scars Are Cool",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Massachusetts Surgical Journal",
+    "issue": 15,
+    "location": "Cambridge Polymer Labs",
+    "where": "On the desk inside the Director's office, above the reception area.",
+    "effect": "+2% limb damage for all weapons.",
+    "coords": {
+      "x": 891,
+      "y": 880.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-picket-fences-01",
+    "name": "Picket Fences #1: The House of Tomorrow... Today!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Picket Fences",
+    "issue": 1,
+    "location": "Beantown Brewery",
+    "where": "In the foreman's concrete wall office, upper walkways of the main vat room, near the steamer trunk.",
+    "effect": "Picket fences can be built at settlements.",
+    "coords": {
+      "x": 774.5,
+      "y": 826.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-picket-fences-02",
+    "name": "Picket Fences #2: Modern Hearth!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Picket Fences",
+    "issue": 2,
+    "location": "Hardware Town",
+    "where": "In the upstairs office on the desk with the key, center of the building, near the steamer trunk.",
+    "effect": "High-tech lights can be built at settlements.",
+    "coords": {
+      "x": 921,
+      "y": 1128.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-picket-fences-03",
+    "name": "Picket Fences #3: Essential Upgrades!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Picket Fences",
+    "issue": 3,
+    "location": "Saugus Ironworks",
+    "where": "Blast Furnace area, on the catwalk just below the steamer trunk and Bobblehead.",
+    "effect": "Statues can be built at settlements.",
+    "coords": {
+      "x": 1527.5,
+      "y": 405.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-picket-fences-04",
+    "name": "Picket Fences #4: Modern Lawn Care!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Picket Fences",
+    "issue": 4,
+    "location": "Combat Zone",
+    "where": "On the formica table, ground level near the bar, in front of the main stage.",
+    "effect": "Potted plants can be built at settlements.",
+    "coords": {
+      "x": 1204,
+      "y": 1038.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-picket-fences-05",
+    "name": "Picket Fences #5: Welcome Home!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Picket Fences",
+    "issue": 5,
+    "location": "Weston water treatment plant",
+    "where": "In the metal office overlooking the generator room, before descending to the main treatment chamber.",
+    "effect": "Patio furniture can be built at settlements.",
+    "coords": {
+      "x": 628.5,
+      "y": 876.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-robco-fun-01",
+    "name": "RobCo Fun #1: Atomic Command",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "RobCo Fun",
+    "issue": 1,
+    "location": "Museum of Freedom",
+    "where": "In the chamber above the front doors, where Preston is holed up, on Sturges’ desk. (may respawn)",
+    "effect": "Unlocks Atomic Command Pip-Boy game.",
+    "coords": {
+      "x": 661,
+      "y": 316.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-robco-fun-02",
+    "name": "RobCo Fun #2: Grognak The Barbarian",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "RobCo Fun",
+    "issue": 2,
+    "location": "Memory Den in Goodneighbor",
+    "where": "In the Memory Den back room / basement (Must be in Act II of MQ).",
+    "effect": "Unlocks Grognak the Barbarian Pip-Boy game.",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-robco-fun-03",
+    "name": "RobCo Fun #3: Pip Fall",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "RobCo Fun",
+    "issue": 3,
+    "location": "Fort Hagen",
+    "where": "Command Center - adjacent to Kellogg's Terminal under a table, in the chamber where you speak with Kellogg. (may respawn)",
+    "effect": "Unlocks Pip Fall Pip-Boy game.",
+    "coords": {
+      "x": 420.5,
+      "y": 899
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-robco-fun-04",
+    "name": "RobCo Fun #4: Red Menace",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "RobCo Fun",
+    "issue": 4,
+    "location": "Vault 111",
+    "where": "Inside the cafeteria terminal, northeast area. Only the holotape is available, not the magazine.",
+    "effect": "Unlocks Red Menace Pip-Boy game.",
+    "coords": {
+      "x": 409.5,
+      "y": 146
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-robco-fun-05",
+    "name": "RobCo Fun #5: Zeta Invaders",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "RobCo Fun",
+    "issue": 5,
+    "location": "Valentine Detective Agency",
+    "where": "On a desk, inside the Valentine's Detective Agency located in Diamond City Market.",
+    "effect": "Unlocks Zeta Invaders Pip-Boy game.",
+    "coords": {
+      "x": 965.5,
+      "y": 1086.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-taboo-tattoos-01",
+    "name": "Taboo Tattoos #1: 13",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Taboo Tattoos",
+    "issue": 1,
+    "location": "Mass Pike Tunnel east or west",
+    "where": "In a locked room to the South, next to Det. Perry's holotape",
+    "effect": "Unlocks lucky clover tattoo.",
+    "coords": {
+      "x": 1060.2,
+      "y": 1110
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-taboo-tattoos-02",
+    "name": "Taboo Tattoos #2: Anchor",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Taboo Tattoos",
+    "issue": 2,
+    "location": "Thicket Excavations",
+    "where": "In the metal trailer caravan on the south edge of the excavation area, close to two other trailers.",
+    "effect": "Unlocks nautical anchor tattoo.",
+    "coords": {
+      "x": 753.5,
+      "y": 219.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-taboo-tattoos-03",
+    "name": "Taboo Tattoos #3: Eagle's Nest",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Taboo Tattoos",
+    "issue": 3,
+    "location": "Concord Civic Access",
+    "where": "In the scavenger's sleeping area, close to the steamer trunk, western area near exit stairs.",
+    "effect": "Unlocks Eagle tattoo.",
+    "coords": {
+      "x": 635.8,
+      "y": 285.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-taboo-tattoos-04",
+    "name": "Taboo Tattoos #4: Skulls Are Hip!!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Taboo Tattoos",
+    "issue": 4,
+    "location": "Irish Pride Industries shipyard",
+    "where": "On the metal picnic table, inside the docked ship, in the shipyard interior.",
+    "effect": "Unlocks radiation skull tattoo.",
+    "coords": {
+      "x": 1245,
+      "y": 652.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-taboo-tattoos-16",
+    "name": "Taboo Tattoos #16: Sailor",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Taboo Tattoos",
+    "issue": 16,
+    "location": "Vault 81",
+    "where": "On the lowest level of the atrium, in the barber's shop.",
+    "effect": "Unlocks bad luck horseshoe tattoo.",
+    "coords": {
+      "x": 809.5,
+      "y": 1037.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01",
+    "name": "Tales of a Junktown Jerky Vendor #1: How to Run a Successful Vendor Stand",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Big John's Salvage",
+    "where": "On the small table with the lantern, inside the caravan perched atop the containers, adjacent to the steamer trunk.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 1138.5,
+      "y": 1200.8
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-2",
+    "name": "Tales of a Junktown Jerky Vendor #1: Capitalism & You",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Four Leaf Fishpacking plant",
+    "where": "Basement locker room, on the bench, western side of the plant.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 1360,
+      "y": 1106.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-3",
+    "name": "Tales of a Junktown Jerky Vendor #1: The Art of Haggling",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Super Duper Mart",
+    "where": "On the metal wire magazine stand, west wall, just right of the Milton General Hospital poster.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 833,
+      "y": 524
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-4",
+    "name": "Tales of a Junktown Jerky Vendor #1: Benefits of Child Labor",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Longneck Lukowski's Cannery",
+    "where": "Inside the metal catwalk hut, northwest upper area of the main cannery room, with the Bobblehead.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 1722.5,
+      "y": 431.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-5",
+    "name": "Tales of a Junktown Jerky Vendor #1: Take Your Business on the Road",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Mystic Pines",
+    "where": "On the sideboard table by the TV, west wall, inside the building, just north of the main entrance.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 914.5,
+      "y": 502
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-6",
+    "name": "Tales of a Junktown Jerky Vendor #1: The Joy of Wealth",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Gwinnett Brewery",
+    "where": "Inside the building, on a desk, next to a terminal, in an office, upper level, along the northwest wall. Climb the pipes and catwalks to reach the office.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 1350.5,
+      "y": 1183.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-7",
+    "name": "Tales of a Junktown Jerky Vendor #1: Why I Sold My Mother",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Walden Pond",
+    "where": "On the barrel with the lantern on it, inside the pipe tunnel interior cave.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 566.5,
+      "y": 517
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tales-of-a-junktown-jerky-vendor-01-8",
+    "name": "Tales of a Junktown Jerky Vendor #1: Suit Up & Succeed",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tales of a Junktown Jerky Vendor",
+    "issue": 1,
+    "location": "Wreck of the FMS Northern Star",
+    "where": "Upper level, mid-deck, on the parasol table, north side of the ship.",
+    "effect": "Decreases vendor prices by 3% when bartering.",
+    "coords": {
+      "x": 1573.5,
+      "y": 1511.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-10",
+    "name": "Tesla Science Magazine #10: Number 1 Hits!!!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 10,
+    "location": "Poseidon Energy",
+    "where": "On the metal desk with the Bobblehead near the steamer trunk, in the central metal catwalk hut.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1428,
+      "y": 1559
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-05",
+    "name": "Tesla Science Magazine #5: Future of Warfare?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 5,
+    "location": "Reeb Marina",
+    "where": "On the wooden bench in the kitchen of the warehouse, near the birthday sweetroll.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1552,
+      "y": 564.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-01",
+    "name": "Tesla Science Magazine #1: Geckos and Gamma Radiation",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 1,
+    "location": "University Point",
+    "where": "Top floor of Sedgwick Hall, in the northern computer room, northeast corner on a small table. Access via the open curtains.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1284.5,
+      "y": 1304.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-05-2",
+    "name": "Tesla Science Magazine #5: Giant Super Weapons",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 5,
+    "location": "Mass Fusion building",
+    "where": "On the computer bank, southeast mezzanine room, upper offices above the glass floor. Access gained during main quest or by using a jet pack.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1245.5,
+      "y": 918
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-03",
+    "name": "Tesla Science Magazine #3: Rocket Science for Toddlers",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 3,
+    "location": "Rocky cave",
+    "where": "In Virgil's Laboratory on a broken fridge, just left of Virgil's terminal",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 201.2,
+      "y": 1921.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-09",
+    "name": "Tesla Science Magazine #9: Tomorrow's technology for today's Super Soldiers",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 9,
+    "location": "Mahkra Fishpacking",
+    "where": "Lowest floor filleting room, on a small table, north west corner. Room below the one with the Steamer Trunk.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1750.5,
+      "y": 94.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-01-2",
+    "name": "Tesla Science Magazine #1: U.S. Army Goes to Space",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 1,
+    "location": "HalluciGen, Inc.",
+    "where": "First floor, in the Weaponization Research lab, in the northeast corner.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1148,
+      "y": 966.8
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-01-3",
+    "name": "Tesla Science Magazine #1: What is Plasma, Anyway?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 1,
+    "location": "General Atomics factory",
+    "where": "In the upper floor office, on a metal desk against the east wall, directly above the entrance lobby.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 1398,
+      "y": 1136.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tesla-science-magazine-01-4",
+    "name": "Tesla Science Magazine #1: Will Robots Rule the World?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tesla Science Magazine",
+    "issue": 1,
+    "location": "ArcJet Systems",
+    "where": "In the CEO's office on the second floor, next to his terminal.",
+    "effect": "Energy Weapons inflict +5% critical damage.",
+    "coords": {
+      "x": 579,
+      "y": 704.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-total-hack-01",
+    "name": "Total Hack #1: Control Robots",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Total Hack",
+    "issue": 1,
+    "location": "Wattz Consumer Electronics",
+    "where": "Basement server room, on the terminal desk, north wall.",
+    "effect": "Unlocks ability to control robots using a terminal.",
+    "coords": {
+      "x": 1053.5,
+      "y": 683.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-total-hack-02",
+    "name": "Total Hack #2: Control Spotlights",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Total Hack",
+    "issue": 2,
+    "location": "The Shamrock Taphouse",
+    "where": "Held by the female mannequin standing on the table in the “game” room with the checkers board.",
+    "effect": "Unlocks ability to control spotlights using a terminal.",
+    "coords": {
+      "x": 1348,
+      "y": 999
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-total-hack-03",
+    "name": "Total Hack #3: Control Turrets",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Total Hack",
+    "issue": 3,
+    "location": "Wildwood Cemetery",
+    "where": "Under the tree in the center of the cemetery.",
+    "effect": "Unlocks ability to control turrets using a terminal.",
+    "coords": {
+      "x": 1014.5,
+      "y": 337
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tumblers-today-01",
+    "name": "Tumblers Today #1: Bobby Pins – More Effective Than Lockpicks?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tumblers Today",
+    "issue": 1,
+    "location": "Easy City Downs",
+    "where": "On the side chest by the black sofa, in the commentator's area, southwest side of the racetrack",
+    "effect": "Wider \"sweet spot\" when lockpicking.",
+    "coords": {
+      "x": 1524,
+      "y": 760.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tumblers-today-02",
+    "name": "Tumblers Today #2: Confessions of a Housebreaker",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tumblers Today",
+    "issue": 2,
+    "location": "Fens Street sewer",
+    "where": "Next to the holotape on the metal drawers, inside the “cell” area of the sewers, northwest catwalks and tunnels.",
+    "effect": "Wider \"sweet spot\" when lockpicking.",
+    "coords": {
+      "x": 952.5,
+      "y": 1065.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tumblers-today-03",
+    "name": "Tumblers Today #3: Open Any Lock in 5 Seconds Flat",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tumblers Today",
+    "issue": 3,
+    "location": "West Roxbury station",
+    "where": "In the open locker, eastern platform maintenance room, next wall button.",
+    "effect": "Wider \"sweet spot\" when lockpicking.",
+    "coords": {
+      "x": 1041,
+      "y": 1343
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tumblers-today-04",
+    "name": "Tumblers Today #4: Locksmith Certification Special",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tumblers Today",
+    "issue": 4,
+    "location": "Malden Center",
+    "where": "Inside one of the cargo carriages at the station, in the Raider camp at the deepest part of this location.",
+    "effect": "Wider \"sweet spot\" when lockpicking.",
+    "coords": {
+      "x": 1218,
+      "y": 399.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-tumblers-today-05",
+    "name": "Tumblers Today #5: Mysteries of the Master Key Exposed!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Tumblers Today",
+    "issue": 5,
+    "location": "Poseiden Energy Turbine 18-F",
+    "where": "In the metal control room, northwest corner of the facility, by the steamer trunk, on a metal shelf.",
+    "effect": "Wider \"sweet spot\" when lockpicking.",
+    "coords": {
+      "x": 1185.2,
+      "y": 624
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-01",
+    "name": "U.S. Covert Operations Manual #1: Whistling in the Dark",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 1,
+    "location": "The Switchboard in Lexington",
+    "where": "On the desk by the terminal in the executive office above the open office and double stairwell area.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 725,
+      "y": 515.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-02",
+    "name": "U.S. Covert Operations Manual #2: Urban Camouflage",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 2,
+    "location": "USS Constitution",
+    "where": "Ship interior, on a corner table inside the Captain's cabin.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 1310.5,
+      "y": 758.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-03",
+    "name": "U.S. Covert Operations Manual #3: Facepaint Fundamentals",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 3,
+    "location": "Federal ration stockpile",
+    "where": "On the main table in front of the sofa, in Red Tourette's base, southeast tunnels near exit.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 450.5,
+      "y": 678.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-04",
+    "name": "U.S. Covert Operations Manual #4: Not the Soldiers You're Looking For",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 4,
+    "location": "Abandoned shack/Federal Surveillance Center K-21B",
+    "where": "In Federal Surveillance Center K-21B, deepest area, on the light blue metal computer bank, near the steamer trunk and terminal.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 291,
+      "y": 1508
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-05",
+    "name": "U.S. Covert Operations Manual #5: Who Goes There?",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 5,
+    "location": "Fort Strong armory",
+    "where": "On the desk of General Brock, southwest corner of the ground floor.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 1698.5,
+      "y": 990.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-06",
+    "name": "U.S. Covert Operations Manual #6: Squeaky Floorboard, Sudden Death",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 6,
+    "location": "Fort Hagen",
+    "where": "Command Center, on the side table of the bedroom and kitchenette room, just east of the armory.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 420.5,
+      "y": 899
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-07",
+    "name": "U.S. Covert Operations Manual #7: Bushes, Boxes and Beehives Camouflage Special",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 7,
+    "location": "Libertalia",
+    "where": "By a red padded chair on the exterior of the main shanty ship, halfway up, same level as the second boat cabin.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 1717.5,
+      "y": 716
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-08",
+    "name": "U.S. Covert Operations Manual #8: Getting the Drop on Communists",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 8,
+    "location": "National Guard Training Yard",
+    "where": "On a table in the cafeteria of the barracks, near a cooler.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 1406,
+      "y": 549
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-09",
+    "name": "U.S. Covert Operations Manual #9: Look Better in Black",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 9,
+    "location": "Revere satellite array",
+    "where": "In the shanty hut atop the central satellite support (without the dish).",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 1506,
+      "y": 571.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-u-s-covert-operations-manual-10",
+    "name": "U.S. Covert Operations Manual #10: Tiptoe Through the Tulips",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "U.S. Covert Operations Manual",
+    "issue": 10,
+    "location": "USAF Satellite Station Olivia",
+    "where": "Inside the computer room unlocked by terminal (southeast interior), on the desk with the mini nuke.",
+    "effect": "Makes you more difficult to detect while sneaking.",
+    "coords": {
+      "x": 786,
+      "y": 139.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-unstoppables-01",
+    "name": "Unstoppables #1: Commie-Kazi VS. Manta Man",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Unstoppables",
+    "issue": 1,
+    "location": "Westing Estate",
+    "where": "On the shack closest to the river, with the lantern on the wooden floor near the mattress.",
+    "effect": "+1% chance of taking no damage from an attack.",
+    "coords": {
+      "x": 737.5,
+      "y": 1197
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-unstoppables-01-2",
+    "name": "Unstoppables #1: Dr. Brainwash and His Army of De-Capitalists!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Unstoppables",
+    "issue": 1,
+    "location": "Shaw High School",
+    "where": "Library office on the lower level, with the Steamer Trunk. North area.",
+    "effect": "+1% chance of taking no damage from an attack.",
+    "coords": {
+      "x": 1076.5,
+      "y": 1347.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-unstoppables-01-3",
+    "name": "Unstoppables #1: Trapped In The Dimension Of The Pterror-Dactyls!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Unstoppables",
+    "issue": 1,
+    "location": "Suffolk County Charter School",
+    "where": "In the library room, upper floor, by the holotape and steamer trunk.",
+    "effect": "+1% chance of taking no damage from an attack.",
+    "coords": {
+      "x": 1125.5,
+      "y": 1516
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-unstoppables-01-4",
+    "name": "Unstoppables #1: Visit the Ux-Ron Galaxy!!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Unstoppables",
+    "issue": 1,
+    "location": "Hubris Comics",
+    "where": "On the shop counter, in front of the cheeky monkey and Grognak's Axe in the display case.",
+    "effect": "+1% chance of taking no damage from an attack.",
+    "coords": {
+      "x": 1157,
+      "y": 1013.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-unstoppables-01-5",
+    "name": "Unstoppables #1: Who Can Stop The Unstoppable Grog-Na-Rok?!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Unstoppables",
+    "issue": 1,
+    "location": "D.B. Technical High School",
+    "where": "Basement level swimming pool, northwest corner wall, on a table above a Fat Man and near the steamer trunk.",
+    "effect": "+1% chance of taking no damage from an attack.",
+    "coords": {
+      "x": 1205,
+      "y": 1101
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-01",
+    "name": "Wasteland Survival Guide #1: Farming The Wastes",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 1,
+    "location": "Wreck of the USS Riptide",
+    "where": "Inside the ship, on a table, under the bridge on the water's level.",
+    "effect": "Heal +50% more from fruits and vegetables.",
+    "coords": {
+      "x": 966.4,
+      "y": 936.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-02",
+    "name": "Wasteland Survival Guide #2: Insect Repellent Special",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 2,
+    "location": "Crater house",
+    "where": "Western side of the crater, on the table, lower level of a stilt shack with a lantern and caps stash on a table.",
+    "effect": "Permanently take 5% less damage from insects.",
+    "coords": {
+      "x": 1803,
+      "y": 318
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-03",
+    "name": "Wasteland Survival Guide #3: The Bright Side of Radiation Poisoning",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 3,
+    "location": "Egret Tours Marina",
+    "where": "On the counter of the diner and coolant recharge station.",
+    "effect": "Permanently heal +50% from irradiated packaged food and drink.",
+    "coords": {
+      "x": 863.5,
+      "y": 1341.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-04",
+    "name": "Wasteland Survival Guide #4: The Scrapyard Home Decoration Guide",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 4,
+    "location": "Lynn Woods",
+    "where": "On the sleeping bag, inside the main shack with the steamer trunk.",
+    "effect": "Permanently unlock new decoration items in workshop settlements.",
+    "coords": {
+      "x": 1430.5,
+      "y": 153
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-05",
+    "name": "Wasteland Survival Guide #5: Guide To Diamond City",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 5,
+    "location": "Gorski cabin",
+    "where": "In the underground bunker, by the journal terminal, on a metal desk.",
+    "effect": "Diamond City is now permanently marked on your map.",
+    "coords": {
+      "x": 608.5,
+      "y": 407.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-06",
+    "name": "Wasteland Survival Guide #6: Commonwealth Coupon Spectacular",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 6,
+    "location": "Nahant Oceanological Society",
+    "where": "On the metal desk with the typewriter, entrance room area, ground floor.",
+    "effect": "Permanently gain +10% discount from food and drink vendors.",
+    "coords": {
+      "x": 1920,
+      "y": 662.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-07",
+    "name": "Wasteland Survival Guide #7: Water Aerobics for Ghouls",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 7,
+    "location": "Old Gullet sinkhole",
+    "where": "On a concrete block inside the sinkhole, by the cooking pot station.",
+    "effect": "Permanently swim 25% faster.",
+    "coords": {
+      "x": 1270,
+      "y": 329.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-08",
+    "name": "Wasteland Survival Guide #8: Self-Defense Secrets",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 8,
+    "location": "Ranger cabin",
+    "where": "On the sideboard table in the cabin.",
+    "effect": "Permanently take 5% less damage from melee attacks.",
+    "coords": {
+      "x": 417,
+      "y": 303
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-wasteland-survival-guide-09",
+    "name": "Wasteland Survival Guide #9: Hunting in the Wastes",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "Wasteland Survival Guide",
+    "issue": 9,
+    "location": "Sunshine Tidings co-op",
+    "where": "In the locked cabin near the silos, on the floor near a mattress and steamer trunk.",
+    "effect": "Permanently collect more meat from animal kills.",
+    "coords": {
+      "x": 431,
+      "y": 563.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-youre-special-01",
+    "name": "You're SPECIAL! #1: You're SPECIAL!",
+    "category": "magazine",
+    "dlc": "base",
+    "title": "You're SPECIAL!",
+    "issue": 1,
+    "location": "Sanctuary Hills",
+    "where": "In the Sole Survivor's house, under Shaun's crib.",
+    "effect": "Add one S.P.E.C.I.A.L. point.",
+    "coords": {
+      "x": 476.5,
+      "y": 179.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-islanders-almanac-01",
+    "name": "Islander's Almanac #1: Pincer Dodge",
+    "category": "magazine",
+    "dlc": "farharbor",
+    "title": "Islander's Almanac",
+    "issue": 1,
+    "location": "Northwood Ridge Quarry",
+    "where": "Inside the quarry's interior area, on a bedside table at the top of the indoor shack.",
+    "effect": "Take 5% less damage from Mirelurk melee attacks.",
+    "coords": {
+      "x": 918,
+      "y": 1593,
+      "world": "farharbor"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-islanders-almanac-01-2",
+    "name": "Islander's Almanac #1: Precision Hunting",
+    "category": "magazine",
+    "dlc": "farharbor",
+    "title": "Islander's Almanac",
+    "issue": 1,
+    "location": "Brooke's Head Lighthouse",
+    "where": "Top of the lighthouse, on a small broken bookcase next to the cooking stove.",
+    "effect": "5% higher VATS chance against animals the player is in combat with.",
+    "coords": {
+      "x": 860,
+      "y": 1823,
+      "world": "farharbor"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-islanders-almanac-01-3",
+    "name": "Islander's Almanac #1: Far Harbor Sightseer's Guide",
+    "category": "magazine",
+    "dlc": "farharbor",
+    "title": "Islander's Almanac",
+    "issue": 1,
+    "location": "The Last Plank",
+    "where": "On the table where Old Longfellow is sitting when first met.",
+    "effect": "Marks multiple locations on the map.",
+    "coords": {
+      "x": 1648,
+      "y": 504,
+      "world": "farharbor"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-islanders-almanac-01-4",
+    "name": "Islander's Almanac #1: Children of Atom Exposé",
+    "category": "magazine",
+    "dlc": "farharbor",
+    "title": "Islander's Almanac",
+    "issue": 1,
+    "location": "Acadia",
+    "where": "On Dejen's counter next to the group of candles.",
+    "effect": "Receive 10% less damage from radiation-based attacks.",
+    "coords": {
+      "x": 1425,
+      "y": 884,
+      "world": "farharbor"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-islanders-almanac-01-5",
+    "name": "Islander's Almanac #1: Recipe Roundup",
+    "category": "magazine",
+    "dlc": "farharbor",
+    "title": "Islander's Almanac",
+    "issue": 1,
+    "location": "National Park visitor's center",
+    "where": "On the counter to the right of the front entrance.",
+    "effect": "Unlocks sludge based recipes at chemistry stations.",
+    "coords": {
+      "x": 1190,
+      "y": 335,
+      "world": "farharbor"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-scav-01",
+    "name": "SCAV! #1: The Terrible Truce",
+    "category": "magazine",
+    "dlc": "nukaworld",
+    "title": "SCAV!",
+    "issue": 1,
+    "location": "Star Control in Galactic Zone",
+    "where": "Behind Star Control on crate by explosives box.",
+    "effect": "Increases speech challenge success chance by 10%",
+    "coords": {
+      "x": 886.4,
+      "y": 1207,
+      "world": "nukaworld"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-scav-02",
+    "name": "SCAV! #2: Fear the Knife King",
+    "category": "magazine",
+    "dlc": "nukaworld",
+    "title": "SCAV!",
+    "issue": 2,
+    "location": "Nuka-World junkyard",
+    "where": "In a barn north east of the junkyard.",
+    "effect": "+25% Combat Knife and Switchblade damage.",
+    "coords": {
+      "x": 551.5,
+      "y": 1485.2,
+      "world": "nukaworld"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-scav-03",
+    "name": "SCAV! #3: Mutant Fists of Stephie Knuckles",
+    "category": "magazine",
+    "dlc": "nukaworld",
+    "title": "SCAV!",
+    "issue": 3,
+    "location": "Fun House in Kiddie Kingdom",
+    "where": "In the maze with green rotating tunnels.",
+    "effect": "+10% hand-to-hand weapon damage.",
+    "coords": {
+      "x": 1329.7,
+      "y": 934.3,
+      "world": "nukaworld"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-scav-04",
+    "name": "SCAV! #4: Nuka Brahmin Stampede",
+    "category": "magazine",
+    "dlc": "nukaworld",
+    "title": "SCAV!",
+    "issue": 4,
+    "location": "Grandchester Mystery Mansion",
+    "where": "In the attic on a box.",
+    "effect": "+5% explosives damage.",
+    "coords": {
+      "x": 592.2,
+      "y": 1799.5,
+      "world": "nukaworld"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  },
+  {
+    "id": "mag-scav-05",
+    "name": "SCAV! #5: That No-Caps Rage",
+    "category": "magazine",
+    "dlc": "nukaworld",
+    "title": "SCAV!",
+    "issue": 5,
+    "location": "Employee Area in Dry Rock Gulch",
+    "where": "In the Employee Area, sitting on a table next to frag mines on top of the roof of one of the buildings. Can be accessed after turning Nuka-World's power on or by flying over the wall with a jet pack.",
+    "effect": "+1 Strength & Endurance if you have <= 10,000 caps. +2 Strength & Endurance if you have <= 1,000 caps. +3 Strength & Endurance if you have <= 100 caps.",
+    "coords": {
+      "x": 1032,
+      "y": 911,
+      "world": "nukaworld"
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Fallout_4_magazines"
+  }
+]
