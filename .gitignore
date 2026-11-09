@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Map image (game artwork, add your own copy locally)
+public/map.*

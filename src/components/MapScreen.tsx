@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
 import { ALL_CATEGORIES, CATEGORY_LABELS, type Calibration, type Category, type Entry, type MapLocation } from '../types';
 import { ENTRIES, ENTRY_BY_ID, LOCATIONS } from '../lib/loadData';
-import { defaultCalibration, entryCoords, MAP_IMAGE, MAP_UNITS, solveCalibration, toPixels, toUnits } from '../lib/coords';
+import { defaultCalibration, entryCoords, MAP_IMAGES, MAP_UNITS, solveCalibration, toPixels, toUnits } from '../lib/coords';
 import type { StatusFilter } from '../lib/search';
 import { actions, useProfile, useSettings } from '../state/store';
 import { CATEGORY_COLOURS, markerSvg } from './markerIcons';
@@ -60,11 +60,22 @@ export function MapScreen({ focus, onFocusHandled, selectedId, onSelect, onJump 
 
   // ---- load the map image (or fall back to a grid) ----
   useEffect(() => {
-    const url = `${import.meta.env.BASE_URL}${MAP_IMAGE}`;
-    const im = new Image();
-    im.onload = () => setImg({ w: im.naturalWidth, h: im.naturalHeight, url });
-    im.onerror = () => setImg({ ...MAP_UNITS });
-    im.src = url;
+    let cancelled = false;
+    const tryNext = (i: number) => {
+      if (i >= MAP_IMAGES.length) {
+        if (!cancelled) setImg({ ...MAP_UNITS });
+        return;
+      }
+      const url = `${import.meta.env.BASE_URL}${MAP_IMAGES[i]}`;
+      const im = new Image();
+      im.onload = () => !cancelled && setImg({ w: im.naturalWidth, h: im.naturalHeight, url });
+      im.onerror = () => tryNext(i + 1);
+      im.src = url;
+    };
+    tryNext(0);
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const savedCal = useMemo(
@@ -244,7 +255,7 @@ export function MapScreen({ focus, onFocusHandled, selectedId, onSelect, onJump 
         <div ref={elRef} className={`map${placing || calib ? ' crosshair' : ''}${settings.colourMarkers ? '' : ' mono'}`} />
         {img && !img.url && (
           <div className="map-banner">
-            NO MAP IMAGE: add public/{MAP_IMAGE} to see the Commonwealth map. Showing a grid with named locations.
+            NO MAP IMAGE: save the Commonwealth map as public/map.png (or .jpg) to see it. Showing a grid with named locations.
           </div>
         )}
         {placing && (

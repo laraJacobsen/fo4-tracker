@@ -3,7 +3,8 @@ import type { Calibration, Coords, Entry, Settings } from '../types';
 /** Size of the Fallout Wiki map grid the coordinates are expressed in. */
 export const MAP_UNITS = { w: 2048, h: 2048 };
 
-export const MAP_IMAGE = 'map.jpg';
+/** Map image file names tried in public/, in order. */
+export const MAP_IMAGES = ['map.jpg', 'map.png', 'map.webp'];
 
 /** Coordinates to use for an entry: a user override wins over the data file. */
 export function entryCoords(e: Entry, settings: Settings): Coords | undefined {
