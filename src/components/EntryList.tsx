@@ -4,6 +4,7 @@ import { CATEGORY_LABELS } from '../types';
 import { actions, useProfile, useSettings } from '../state/store';
 import { distanceFrom } from '../lib/search';
 import { Badges } from './Badges';
+import { isTyping } from '../lib/dom';
 
 type Row = { kind: 'header'; label: string; done: number; total: number } | { kind: 'entry'; e: Entry; index: number };
 
@@ -15,11 +16,6 @@ interface Props {
   showCategory: boolean;
   near?: MapLocation;
   onShowOnMap?: (id: string) => void;
-}
-
-/** True when a key press is going to a text field and should not drive the list. */
-export function isTyping(target: EventTarget | null) {
-  return target instanceof HTMLElement && target.matches('input:not([type=checkbox]), textarea, select');
 }
 
 export function EntryList({ entries, groupBy, selectedId, onSelect, showCategory, near, onShowOnMap }: Props) {

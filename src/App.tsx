@@ -8,7 +8,7 @@ import { ListScreen } from './components/ListScreen';
 import { StatRecent, StatStatus, StatWarnings } from './components/StatScreens';
 import { RadioBackup, RadioContent, RadioDisplay, RadioProfiles } from './components/RadioScreens';
 import { MapScreen } from './components/MapScreen';
-import { isTyping } from './components/EntryList';
+import { isTyping } from './lib/dom';
 import { worldOf } from './lib/coords';
 
 export default function App() {

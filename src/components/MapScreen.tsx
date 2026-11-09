@@ -7,7 +7,7 @@ import { isVisibleForProfile, type StatusFilter } from '../lib/search';
 import { actions, useProfile, useSettings } from '../state/store';
 import { CATEGORY_COLOURS, markerSvg } from './markerIcons';
 import { EntryDetail } from './EntryDetail';
-import { isTyping } from './EntryList';
+import { isTyping } from '../lib/dom';
 
 interface Props {
   world: World;
