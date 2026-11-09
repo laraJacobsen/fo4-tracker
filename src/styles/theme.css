@@ -1,0 +1,172 @@
+/* ---------- Tints (Pip-Boy colour setting) ---------- */
+:root,
+.tint-green {
+  --pip: #1aff80;
+}
+.tint-amber {
+  --pip: #ffb642;
+}
+.tint-blue {
+  --pip: #2ecfff;
+}
+.tint-white {
+  --pip: #dfeaf2;
+}
+
+:root,
+[class*='tint-'] {
+  --bg: #050a07;
+  --pip-dim: color-mix(in srgb, var(--pip) 66%, var(--bg));
+  --pip-faint: color-mix(in srgb, var(--pip) 22%, var(--bg));
+  --pip-ghost: color-mix(in srgb, var(--pip) 9%, var(--bg));
+}
+
+:root {
+  --fs: 15px;
+  --font: 'Share Tech Mono', ui-monospace, 'Courier New', monospace;
+}
+
+.font-vt323 {
+  --fs: 20px;
+  --font: 'VT323', ui-monospace, 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  color: var(--pip);
+  font-family: var(--font);
+  font-size: var(--fs);
+  overflow: hidden;
+}
+
+.pipboy {
+  position: relative;
+  height: 100%;
+  background: radial-gradient(ellipse at 50% 40%, var(--pip-ghost), var(--bg) 70%);
+  color: var(--pip);
+  font-family: var(--font);
+  font-size: var(--fs);
+  letter-spacing: 0.02em;
+}
+
+.screen {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px 8px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ---------- Form controls ---------- */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: var(--pip);
+  background: transparent;
+  border: 1px solid var(--pip-dim);
+  border-radius: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
+
+button:hover,
+button:focus-visible,
+button.on {
+  background: var(--pip);
+  color: var(--bg);
+  outline: none;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+input,
+select,
+textarea {
+  padding: 3px 6px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid var(--pip);
+}
+
+select option {
+  background: var(--bg);
+  color: var(--pip);
+}
+
+input[type='checkbox'] {
+  appearance: none;
+  width: 0.9em;
+  height: 0.9em;
+  border: 1px solid var(--pip);
+  vertical-align: -0.1em;
+  padding: 0;
+  margin: 0 0.4em 0 0;
+}
+
+input[type='checkbox']:checked {
+  background: var(--pip);
+  box-shadow: inset 0 0 0 2px var(--bg);
+}
+
+a {
+  color: var(--pip);
+}
+
+::selection {
+  background: var(--pip);
+  color: var(--bg);
+}
+
+/* Scrollbars */
+* {
+  scrollbar-color: var(--pip-dim) transparent;
+  scrollbar-width: thin;
+}
+
+.dim {
+  color: var(--pip-dim);
+}
+
+.muted {
+  opacity: 0.6;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.empty {
+  padding: 2em 1em;
+  color: var(--pip-dim);
+  text-align: center;
+}

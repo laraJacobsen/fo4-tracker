@@ -1,0 +1,103 @@
+/* CRT effects. Each is a class toggled on .pipboy from settings. */
+
+.fx-glow {
+  text-shadow:
+    0 0 2px color-mix(in srgb, var(--pip) 70%, transparent),
+    0 0 8px color-mix(in srgb, var(--pip) 35%, transparent);
+}
+
+.fx-glow .screen {
+  filter: drop-shadow(0 0 1px color-mix(in srgb, var(--pip) 30%, transparent));
+}
+
+/* Leaflet tiles shouldn't get text glow blur */
+.fx-glow .leaflet-container {
+  text-shadow: none;
+}
+
+.crt-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.crt-scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.28) 0px,
+    rgba(0, 0, 0, 0.28) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* A faint band that slowly rolls down the screen */
+.crt-scanlines::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 18%;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    color-mix(in srgb, var(--pip) 4%, transparent),
+    transparent
+  );
+  animation: roll 9s linear infinite;
+}
+
+@keyframes roll {
+  from {
+    top: -20%;
+  }
+  to {
+    top: 110%;
+  }
+}
+
+.crt-vignette {
+  background: radial-gradient(ellipse at center, transparent 62%, rgba(0, 0, 0, 0.55) 100%);
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.6);
+}
+
+.fx-flicker .screen {
+  animation: flicker 4s steps(1) infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  7% { opacity: 0.96; }
+  8% { opacity: 1; }
+  33% { opacity: 0.985; }
+  34% { opacity: 1; }
+  61% { opacity: 0.95; }
+  62% { opacity: 1; }
+  88% { opacity: 0.98; }
+  89% { opacity: 1; }
+}
+
+/* Short "power on" sweep when switching top tabs */
+.tab-enter {
+  animation: tab-enter 180ms ease-out;
+}
+
+@keyframes tab-enter {
+  from {
+    opacity: 0.2;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fx-flicker .screen,
+  .crt-scanlines::after,
+  .tab-enter {
+    animation: none;
+  }
+}
