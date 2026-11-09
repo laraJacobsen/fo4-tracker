@@ -1,1 +1,784 @@
-[]
+[
+  {
+    "id": "uw-deliverer",
+    "name": "Deliverer",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "The Switchboard",
+    "where": "Reward for completing the quest Tradecraft.",
+    "effect": "Improved VATS hit chance, 25% less Action Point cost.",
+    "acquisition": "reward",
+    "coords": {
+      "x": 725,
+      "y": 515.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-tradecraft",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Deliverer"
+  },
+  {
+    "id": "uw-eddies-peace",
+    "name": "Eddie's Peace",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Andrew station",
+    "where": "Found during the quest Long Time Coming.",
+    "baseItem": ".44 pistol",
+    "effect": "50% more limb damage",
+    "acquisition": "found",
+    "coords": {
+      "x": 1272,
+      "y": 1189
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-long-time-coming",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Eddie's_Peace"
+  },
+  {
+    "id": "uw-flare-gun",
+    "name": "Flare gun",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "See details",
+    "where": "Given by Preston Garvey after The First Step.",
+    "effect": "Summons Minutemen when 3-4 squares away from owned settlement.",
+    "acquisition": "found",
+    "relatedQuest": "quest-the-first-step",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Flare_gun_(Fallout_4)"
+  },
+  {
+    "id": "uw-the-gainer",
+    "name": "The Gainer",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Vitale pumphouse",
+    "where": "Reward for solving the Vitale pumphouse number puzzle.",
+    "baseItem": ".44 pistol",
+    "effect": "Sets target on fire for 15 points of damage",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1574,
+      "y": 471.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/The_Gainer"
+  },
+  {
+    "id": "uw-justice",
+    "name": "Justice",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Covenant",
+    "where": "Sold by Penny in Covenant.",
+    "baseItem": "Combat shotgun",
+    "effect": "Chance to stagger on hit.",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1040,
+      "y": 495
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Justice"
+  },
+  {
+    "id": "uw-kelloggs-pistol",
+    "name": "Kellogg's pistol",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Fort Hagen",
+    "where": "Found during the quest Reunions.",
+    "baseItem": ".44 pistol",
+    "effect": "Refills your Action Points on a Critical Hit",
+    "acquisition": "found",
+    "coords": {
+      "x": 420.5,
+      "y": 899
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-reunions",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Kellogg's_pistol_(Fallout_4)"
+  },
+  {
+    "id": "uw-the-last-minute",
+    "name": "The Last Minute",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "The Castle",
+    "where": "Sold by Ronnie Shaw at The Castle after completing quest Old Guns.",
+    "baseItem": "Gauss rifle",
+    "effect": "50% more limb damage",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1474.5,
+      "y": 1218
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-old-guns",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/The_Last_Minute"
+  },
+  {
+    "id": "uw-le-fusil-terribles",
+    "name": "Le Fusil Terribles",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Libertalia",
+    "where": "Found in Libertalia on a shelf in the captain's cabin.",
+    "baseItem": "Combat shotgun",
+    "effect": "+25% damage/limb damage but also significantly increased recoil",
+    "acquisition": "found",
+    "coords": {
+      "x": 1717.5,
+      "y": 716
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Le_Fusil_Terribles"
+  },
+  {
+    "id": "uw-overseers-guardian",
+    "name": "Overseer's Guardian",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Vault 81",
+    "where": "Sold by Alexis Combes in Vault 81.",
+    "baseItem": "Combat rifle",
+    "effect": "Shoots an additional projectile.",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 809.5,
+      "y": 1037.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-vault-81",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Overseer's_Guardian"
+  },
+  {
+    "id": "uw-reba",
+    "name": "Reba",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "See details",
+    "where": "Dropped by Barney Rook.",
+    "baseItem": "Hunting rifle",
+    "effect": "No legendary effect",
+    "acquisition": "found",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Reba"
+  },
+  {
+    "id": "uw-reba-ii",
+    "name": "Reba II",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "See details",
+    "where": "Potential reward for completing the quest with Barney Rook.",
+    "baseItem": "Hunting rifle",
+    "effect": "50% more damage against mirelurks and bugs.",
+    "acquisition": "reward",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Reba_II"
+  },
+  {
+    "id": "uw-silver-submachine-gun",
+    "name": "Silver submachine gun",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Goodneighbor",
+    "where": "Reward for the quest The Silver Shroud.",
+    "baseItem": "Submachine gun",
+    "effect": "No legendary effect",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-the-silver-shroud",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Silver_submachine_gun"
+  },
+  {
+    "id": "uw-spray-n-pray",
+    "name": "Spray n' Pray",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "See details",
+    "where": "Sold by Cricket, a wandering caravan trader.",
+    "baseItem": "Submachine gun",
+    "effect": "Each shot deals 15 points of area-of-effect explosive damage on impact",
+    "acquisition": "vendor",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Spray_n'_Pray"
+  },
+  {
+    "id": "uw-tinker-tom-special",
+    "name": "Tinker Tom Special",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Railroad HQ",
+    "where": "Sold by Tinker Tom in the Railroad HQ.",
+    "baseItem": "Hunting rifle",
+    "effect": "If you are not yet in combat, increases VATS accuracy but costs more AP",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1353.5,
+      "y": 867
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Tinker_Tom_Special"
+  },
+  {
+    "id": "uw-wastelanders-friend",
+    "name": "Wastelander's Friend",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "ballistic",
+    "location": "Bunker Hill",
+    "where": "Sold by Deb in Bunker Hill.",
+    "baseItem": "10mm pistol",
+    "effect": "50% more limb damage",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1242,
+      "y": 750.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Wastelander's_Friend"
+  },
+  {
+    "id": "uw-alien-blaster-pistol",
+    "name": "Alien blaster pistol",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "See details",
+    "where": "Found in a random encounter, see the weapon page for details.",
+    "effect": "No legendary effect",
+    "acquisition": "found",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Alien_blaster_pistol"
+  },
+  {
+    "id": "uw-cryolator",
+    "name": "Cryolator",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "Vault 111",
+    "where": "In a locked case (Master) located in the Vault 111 overseer's office.",
+    "effect": "Can freeze enemies",
+    "acquisition": "found",
+    "coords": {
+      "x": 409.5,
+      "y": 146
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Cryolator_(Fallout_4)"
+  },
+  {
+    "id": "uw-experiment-18-a",
+    "name": "Experiment 18-A",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "See details",
+    "where": "Sold by the Synth requisition officer in the Institute.",
+    "baseItem": "Plasma rifle",
+    "effect": "25% faster fire rate, 15% faster reload",
+    "acquisition": "vendor",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Experiment_18-A"
+  },
+  {
+    "id": "uw-good-intentions",
+    "name": "Good Intentions",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "See details",
+    "where": "Carried by the Gunner leader Clint on the elevated freeway camp.",
+    "baseItem": "Laser rifle",
+    "effect": "Frenzy enemies on critical hit",
+    "acquisition": "found",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Good_Intentions"
+  },
+  {
+    "id": "uw-lorenzos-artifact",
+    "name": "Lorenzo's Artifact",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "Parsons State Insane Asylum",
+    "where": "Potential reward for completing the quest The Secret of Cabot House.",
+    "baseItem": "Gamma gun",
+    "effect": "Stuns enemies on hit, area of effect",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1509.5,
+      "y": 184.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-the-secret-of-cabot-house",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Lorenzo's_Artifact"
+  },
+  {
+    "id": "uw-old-faithful",
+    "name": "Old Faithful",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "Diamond City market",
+    "where": "Sold by Arturo Rodriguez in the Diamond City market.",
+    "baseItem": "Laser pistol",
+    "effect": "Deals double damage if target is at full health",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 983.5,
+      "y": 1069.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Old_Faithful"
+  },
+  {
+    "id": "uw-prototype-up77-limitless-potential",
+    "name": "Prototype UP77 \"Limitless Potential\"",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "University Credit Union",
+    "where": "In a hidden room, opened by a button in a locked safe (Master) inside the University Credit Union.",
+    "baseItem": "Laser rifle",
+    "effect": "Unlimited ammo capacity (not unlimited ammo)",
+    "acquisition": "found",
+    "coords": {
+      "x": 1278.8,
+      "y": 1308.0
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Prototype_UP77_\"Limitless_Potential\""
+  },
+  {
+    "id": "uw-righteous-authority",
+    "name": "Righteous Authority",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "Cambridge Police Station",
+    "where": "Reward for completing the quest Call to Arms.",
+    "baseItem": "Laser rifle",
+    "effect": "Critical shots do double damage, Critical meter fills 15% faster",
+    "acquisition": "reward",
+    "coords": {
+      "x": 876,
+      "y": 777
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-call-to-arms",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Righteous_Authority"
+  },
+  {
+    "id": "uw-sentinels-plasmacaster",
+    "name": "Sentinel's Plasmacaster",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "The Prydwen",
+    "where": "Sold by Teagan on the Prydwen after reaching the rank of Sentinel in the Brotherhood of Steel.",
+    "baseItem": "Plasma rifle",
+    "effect": "Does double damage if target is at full health",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1504,
+      "y": 923
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Sentinel's_Plasmacaster"
+  },
+  {
+    "id": "uw-survivors-special",
+    "name": "Survivor's Special",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "West Everett Estates",
+    "where": "Potential reward for completing the quest The Lost Patrol.",
+    "baseItem": "Laser rifle",
+    "effect": "Does more damage the lower player health is",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1207.5,
+      "y": 564.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-the-lost-patrol",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Survivor's_Special"
+  },
+  {
+    "id": "uw-virgils-rifle",
+    "name": "Virgil's rifle",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "Rocky cave",
+    "where": "Kill Virgil or steal it from Virgil's person in Virgil's laboratory, using rank 3 of the Pickpocket perk.",
+    "baseItem": "Institute laser",
+    "effect": "50% more damage against super mutants",
+    "acquisition": "found",
+    "coords": {
+      "x": 201.2,
+      "y": 1921.2
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Virgil's_rifle"
+  },
+  {
+    "id": "uw-wazer-wifle",
+    "name": "Wazer Wifle",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "energy",
+    "location": "See details",
+    "where": "Received from Shaun after completing three unmarked quests.",
+    "baseItem": "Laser rifle",
+    "effect": "Unlimited ammo capacity (Not unlimited ammo)",
+    "acquisition": "found",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Wazer_Wifle_(Fallout_4)"
+  },
+  {
+    "id": "uw-ashmaker",
+    "name": "Ashmaker",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "Goodneighbor",
+    "where": "Potential reward for completing the quest The Big Dig.",
+    "baseItem": "Minigun",
+    "effect": "Sets targets on fire for 15 points of damage",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-the-big-dig",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Ashmaker"
+  },
+  {
+    "id": "uw-big-boy",
+    "name": "Big Boy",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "Diamond City market",
+    "where": "Sold by Arturo Rodriguez in the Diamond City market.",
+    "baseItem": "Fat Man",
+    "effect": "Shoots an additional projectile",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 983.5,
+      "y": 1069.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Big_Boy"
+  },
+  {
+    "id": "uw-broadsider",
+    "name": "Broadsider",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "USS Constitution",
+    "where": "Reward for completing the quest Last Voyage of the U.S.S. Constitution.",
+    "effect": "No legendary effect",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1310.5,
+      "y": 758.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-last-voyage-of-the-u-s-s-constitution",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Broadsider_(Fallout_4)"
+  },
+  {
+    "id": "uw-death-from-above",
+    "name": "Death From Above",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "The Prydwen",
+    "where": "Sold by Teagan on the Prydwen after reaching the rank of Paladin in the Brotherhood of Steel.",
+    "baseItem": "Missile launcher",
+    "effect": "75% increased movement speed while aiming down sights",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1504,
+      "y": 923
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Death_From_Above_(weapon)"
+  },
+  {
+    "id": "uw-final-judgment",
+    "name": "Final Judgment",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "The Institute",
+    "where": "Carried by Elder Maxson; available during Airship Down or Precipice of War or Rockets' Red Glare.",
+    "baseItem": "Gatling laser",
+    "effect": "25% faster fire rate, 15% faster reload",
+    "acquisition": "found",
+    "coords": {
+      "x": 972.5,
+      "y": 838
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-airship-down",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Final_Judgment"
+  },
+  {
+    "id": "uw-partystarter",
+    "name": "Partystarter",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "heavy",
+    "location": "Goodneighbor",
+    "where": "Sold by KL-E-0 in Goodneighbor.",
+    "baseItem": "Missile launcher",
+    "effect": "50% more damage against humans",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 1264.5,
+      "y": 949
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Partystarter"
+  },
+  {
+    "id": "uw-2076-world-series-baseball-bat",
+    "name": "2076 World Series baseball bat",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Jamaica Plain",
+    "where": "Located in Jamaica Plain under the city hall, can be sold to Moe Cronin in Diamond city.",
+    "baseItem": "Baseball bat",
+    "effect": "6% chance to send targets flying",
+    "acquisition": "found",
+    "coords": {
+      "x": 1178.5,
+      "y": 1352
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/2076_World_Series_baseball_bat"
+  },
+  {
+    "id": "uw-big-jim",
+    "name": "Big Jim",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Walden Pond",
+    "where": "Found in the sewer tunnel beneath Walden Pond.",
+    "baseItem": "Pipe wrench",
+    "effect": "20% chance to cripple target's leg",
+    "acquisition": "found",
+    "coords": {
+      "x": 566.5,
+      "y": 517
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Big_Jim_(weapon)"
+  },
+  {
+    "id": "uw-general-chaos-revenge",
+    "name": "General Chao's Revenge",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Drumlin Diner",
+    "where": "Sold by Trudy at the Drumlin Diner.",
+    "baseItem": "Chinese officer sword",
+    "effect": "50% more damage to robots",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 710.5,
+      "y": 429.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/General_Chao's_Revenge"
+  },
+  {
+    "id": "uw-grognaks-axe",
+    "name": "Grognak's axe",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Hubris Comics",
+    "where": "Inside Hubris Comics, in a locked display case (Advanced), behind the front desk.",
+    "effect": "No legendary effect",
+    "acquisition": "found",
+    "coords": {
+      "x": 1157,
+      "y": 1013.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Grognak's_axe_(Fallout_4)"
+  },
+  {
+    "id": "uw-kremvhs-tooth",
+    "name": "Kremvh's Tooth",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Dunwich Borers",
+    "where": "Found underwater at the bottom of Dunwich Borers, on an altar in the side tunnel, near the bottom of the pool.",
+    "baseItem": "Machete",
+    "effect": "Poisons target for 3 points of damage",
+    "acquisition": "found",
+    "coords": {
+      "x": 1623,
+      "y": 313.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Kremvh's_Tooth"
+  },
+  {
+    "id": "uw-pickmans-blade",
+    "name": "Pickman's Blade",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Pickman Gallery",
+    "where": "Located in the Pickman Gallery, reward for completing the quest Pickman's Gift.",
+    "baseItem": "Combat knife",
+    "effect": "Targets bleed for 25 points of damage",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1301.5,
+      "y": 836.5
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-pickmans-gift",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Pickman's_Blade"
+  },
+  {
+    "id": "uw-reckoning",
+    "name": "Reckoning",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "See details",
+    "where": "Sold by Smiling Larry if he is recruited and assigned to a weapon emporium.",
+    "baseItem": "Ripper",
+    "effect": "15% less damage while standing and not moving",
+    "acquisition": "vendor",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Reckoning"
+  },
+  {
+    "id": "uw-rockville-slugger",
+    "name": "Rockville Slugger",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Diamond City market",
+    "where": "Sold by Moe Cronin in the Diamond City market.",
+    "baseItem": "Swatter",
+    "effect": "40% less action point cost in VATS",
+    "acquisition": "vendor",
+    "coords": {
+      "x": 983.5,
+      "y": 1069.5
+    },
+    "coordsApprox": true,
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Rockville_Slugger"
+  },
+  {
+    "id": "uw-shem-drowne-sword",
+    "name": "Shem Drowne sword",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "Faneuil Hall",
+    "where": "Reward for completing the quest The Gilded Grasshopper.",
+    "baseItem": "Revolutionary sword",
+    "effect": "Targets are irradiated upon each hit",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1308.5,
+      "y": 905
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-the-gilded-grasshopper",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Shem_Drowne_sword"
+  },
+  {
+    "id": "uw-zaos-sword",
+    "name": "Zao's sword",
+    "category": "unique",
+    "itemType": "weapon",
+    "weaponClass": "melee",
+    "location": "On the docks behind The Shamrock Taphouse",
+    "where": "Earned as a reward from the quest Here There Be Monsters if successful in 3 persuasion checks.",
+    "baseItem": "Chinese officer sword",
+    "effect": "No legendary effect",
+    "acquisition": "reward",
+    "coords": {
+      "x": 1348,
+      "y": 999
+    },
+    "coordsApprox": true,
+    "relatedQuest": "quest-here-there-be-monsters",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Zao's_sword"
+  }
+]
