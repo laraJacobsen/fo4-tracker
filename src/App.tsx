@@ -13,12 +13,19 @@ import { worldOf } from './lib/coords';
 
 export default function App() {
   const settings = useSettings();
-  const [top, setTop] = useState<TopTab>('INV');
+  const [top, setTop] = useState<TopTab>(() => {
+    const h = window.location.hash.slice(1).toUpperCase();
+    return (TOP_TABS as string[]).includes(h) ? (h as TopTab) : 'INV';
+  });
   const [subIndex, setSubIndex] = useState<Record<TopTab, number>>({ STAT: 0, INV: 1, DATA: 0, MAP: 0, RADIO: 0 });
   const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
   const [selectedId, setSelectedId] = useState<string>();
   const [mapFocus, setMapFocus] = useState<{ id: string; place: boolean }>();
   const searchRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    window.history.replaceState(null, '', `#${top.toLowerCase()}`);
+  }, [top]);
 
   const views = SUB_TABS[top];
   const sub = Math.min(subIndex[top], views.length - 1);
