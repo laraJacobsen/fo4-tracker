@@ -6,10 +6,9 @@ import { useSettings } from './state/store';
 import { StatusBar, SubTabs, TopTabs } from './components/Shell';
 import { ListScreen } from './components/ListScreen';
 import { StatRecent, StatStatus, StatWarnings } from './components/StatScreens';
-import { RadioBackup, RadioContent, RadioDisplay, RadioProfiles } from './components/RadioScreens';
+import { RadioBackup, RadioDisplay, RadioProfiles } from './components/RadioScreens';
 import { MapScreen } from './components/MapScreen';
 import { isTyping } from './lib/dom';
-import { worldOf } from './lib/coords';
 
 export default function App() {
   const settings = useSettings();
@@ -52,15 +51,14 @@ export default function App() {
     }
   }, []);
 
-  /** Switch to the map for this entry's world; place mode if it has no coordinates. */
+  /** Switch to the map; place mode if the entry has no coordinates. */
   const showOnMap = useCallback(
     (id: string) => {
       const e = ENTRY_BY_ID.get(id);
       if (!e) return;
       const c = settings.coordOverrides[id] ?? e.coords;
-      const world = c ? worldOf(c) : e.dlc === 'farharbor' ? 'farharbor' : e.dlc === 'nukaworld' ? 'nukaworld' : 'commonwealth';
       setTop('MAP');
-      setSubIndex((s) => ({ ...s, MAP: SUB_TABS.MAP.findIndex((v) => v.kind === 'map' && v.world === world) }));
+      setSubIndex((s) => ({ ...s, MAP: 0 }));
       setSelectedId(id);
       setMapFocus({ id, place: !c });
     },
@@ -129,7 +127,6 @@ export default function App() {
           {view.kind === 'stat-warnings' && <StatWarnings onJump={jumpTo} />}
           {view.kind === 'map' && (
             <MapScreen
-              world={view.world}
               focus={mapFocus}
               onFocusHandled={() => setMapFocus(undefined)}
               selectedId={selectedId}
@@ -138,7 +135,6 @@ export default function App() {
             />
           )}
           {view.kind === 'radio-display' && <RadioDisplay />}
-          {view.kind === 'radio-content' && <RadioContent />}
           {view.kind === 'radio-profiles' && <RadioProfiles />}
           {view.kind === 'radio-backup' && <RadioBackup />}
         </main>

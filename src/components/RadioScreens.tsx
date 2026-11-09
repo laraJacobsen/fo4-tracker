@@ -1,8 +1,7 @@
 import { useRef, useState } from 'react';
-import { ALL_DLC, DLC_LABELS, WORLD_LABELS, type Settings, type Tint, type World } from '../types';
-import { actions, useProfile, useSave, useSettings } from '../state/store';
+import type { Settings, Tint } from '../types';
+import { actions, useSave, useSettings } from '../state/store';
 import { exportSave, importSave } from '../state/exportImport';
-import { ENTRIES } from '../lib/loadData';
 
 const TINTS: Tint[] = ['green', 'amber', 'blue', 'white'];
 
@@ -55,31 +54,6 @@ export function RadioDisplay() {
       <section>
         <h3>MAP</h3>
         <Toggle k="colourMarkers" label="COLOUR-CODE MARKERS BY CATEGORY" />
-      </section>
-    </div>
-  );
-}
-
-export function RadioContent() {
-  const profile = useProfile();
-  const toggle = (d: (typeof ALL_DLC)[number]) => {
-    const on = profile.enabledDLC.includes(d);
-    actions.setEnabledDLC(on ? profile.enabledDLC.filter((x) => x !== d) : [...profile.enabledDLC, d]);
-  };
-  return (
-    <div className="radio-screen">
-      <section>
-        <h3>CONTENT FOR “{profile.name.toUpperCase()}”</h3>
-        <p className="dim small">Disabled content is hidden from lists, the map and completion totals for this profile.</p>
-        {ALL_DLC.map((d) => {
-          const n = ENTRIES.filter((e) => e.dlc === d).length;
-          return (
-            <label key={d} className="check setting">
-              <input type="checkbox" checked={profile.enabledDLC.includes(d)} disabled={d === 'base'} onChange={() => toggle(d)} />
-              {DLC_LABELS[d].toUpperCase()} <span className="dim">({n} entries)</span>
-            </label>
-          );
-        })}
       </section>
     </div>
   );
@@ -152,7 +126,6 @@ export function RadioBackup() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [msg, setMsg] = useState('');
   const overrides = Object.keys(s.coordOverrides).length;
-  const calibrated = (Object.keys(s.calibration) as World[]).map((w) => WORLD_LABELS[w]);
 
   return (
     <div className="radio-screen">
@@ -188,7 +161,7 @@ export function RadioBackup() {
       <section>
         <h3>MAP DATA</h3>
         <p className="dim small">
-          Calibrated maps: {calibrated.length ? calibrated.join(', ') : 'none'} · Hand-placed markers: {overrides}
+          Map calibrated: {s.calibration ? 'yes' : 'no (default)'} · Hand-placed markers: {overrides}
         </p>
         <div className="row-buttons">
           <button

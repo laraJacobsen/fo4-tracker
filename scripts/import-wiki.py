@@ -8,13 +8,13 @@ Re-running is safe: entries already in the JSON files are kept as-is (so hand
 edits survive) and only entries missing from them are added. Delete an entry
 (or the whole file's contents) to have it regenerated.
 
-Creation Club content is skipped. Coordinates come from src/data/locations.json
+Only base-game content is imported: add-on (DLC) and Creation Club entries are
+skipped. Coordinates come from src/data/locations.json
 and point at the location as a whole (coordsApprox).
 
 usage: npm run data:wiki      (or: python3 scripts/import-wiki.py)
 """
 import json, re, sys, urllib.parse, urllib.request
-from collections import Counter
 from pathlib import Path
 
 data_dir = Path(__file__).resolve().parent.parent / 'src' / 'data'
@@ -92,8 +92,6 @@ ALIASES = {norm(k): norm(v) for k, v in {
     'Valentine Detective Agency': 'Diamond City',
     'Memory Den': 'Goodneighbor',
     'College Square station': 'College Square',
-    'The Last Plank': 'Far Harbor',
-    'Nuka-World': 'Nuka-World transit center',
 }.items()}
 
 def find_loc(targets):
@@ -107,10 +105,7 @@ def find_loc(targets):
     return None
 
 def coords_of(l):
-    c = {'x': l['x'], 'y': l['y']}
-    if l['world'] != 'commonwealth':
-        c['world'] = l['world']
-    return c
+    return {'x': l['x'], 'y': l['y']}
 
 unmatched = set()
 
@@ -125,9 +120,9 @@ def build_magazines(existing):
         if len(cells) < 5:
             print('skip mag row', cells, file=sys.stderr); continue
         title_raw, issue_raw, loc_raw, where_raw, effect_raw = cells[:5]
-        if any('FO4CC' in c for c in cells[:2]):
+        # {{Icon|FO4CC}} Creation Club, {{Icon|FO4FH}} Far Harbor, {{Icon|FO4NW}} Nuka-World
+        if any(tag in c for c in cells[:2] for tag in ('FO4CC', 'FO4FH', 'FO4NW')):
             continue
-        dlc = 'farharbor' if 'FO4FH' in title_raw else 'nukaworld' if 'FO4NW' in title_raw else 'base'
         title = clean(title_raw)
         issue_txt = clean(issue_raw)
         m = re.match(r'#?\s*(\d+)\s*[,:.\-–]?\s*(.*)', issue_txt)
@@ -145,7 +140,6 @@ def build_magazines(existing):
             'id': mid,
             'name': f'{title} #{issue}' + (f': {subtitle}' if subtitle else ''),
             'category': 'magazine',
-            'dlc': dlc,
             'title': title,
             'issue': issue,
             'location': location,
@@ -164,7 +158,6 @@ def build_magazines(existing):
 
 # ---- quests ----
 FACTIONS = {'Minutemen': 'minutemen', 'Brotherhood': 'brotherhood', 'Railroad': 'railroad', 'Institute': 'institute'}
-DLCS = {'Automatron': 'automatron', 'Far Harbor': 'farharbor', 'Nuka-World': 'nukaworld', 'Vault-Tec Workshop': 'vaultworkshop'}
 
 def build_quests(existing):
     w = wikitext('Fallout_4_quests')
@@ -180,17 +173,15 @@ def build_quests(existing):
             elif lvl == 3: h3, h4 = title, ''
             else: h4 = title
             continue
-        if 'Creation Club' in h3:
+        if h2 == 'Add-on quests':
             continue
         start = m.start(); end = w.index('\n|}', start) + 3
         table = w[start:end]
-        faction = dlc = None
+        faction = None
         if h2 == 'Faction quests':
             faction = next(v for k, v in FACTIONS.items() if k in h3)
-        if h2 == 'Add-on quests':
-            dlc = next(v for k, v in DLCS.items() if k in h3)
         sub = (h4 or h3).lower()
-        if h2 == 'Main quests' or ('main' in sub and h2 == 'Add-on quests'):
+        if h2 == 'Main quests':
             qtype = 'main'
         elif 'main' in sub and faction:
             qtype = 'faction'
@@ -221,7 +212,6 @@ def build_quests(existing):
                 'id': qid,
                 'name': name,
                 'category': 'quest',
-                'dlc': dlc or 'base',
                 'questType': qtype,
                 'location': locs_txt[0] if locs_txt else 'Various',
                 'where': 'Quest locations: ' + (', '.join(locs_txt) if locs_txt else 'various'),
@@ -253,8 +243,8 @@ quests = build_quests(old_quests)
 save('magazines.json', mags)
 save('quests.json', quests)
 
-print(f'magazines: {len(mags)} ({len(mags) - len(old_mags)} added)', dict(Counter(m['dlc'] for m in mags)))
-print(f'quests: {len(quests)} ({len(quests) - len(old_quests)} added)', dict(Counter(q['dlc'] for q in quests)))
+print(f'magazines: {len(mags)} ({len(mags) - len(old_mags)} added)')
+print(f'quests: {len(quests)} ({len(quests) - len(old_quests)} added)')
 print('without coords: magazines', sum('coords' not in m for m in mags), '/ quests', sum('coords' not in q for q in quests))
 if unmatched:
     print('locations not in locations.json:', ', '.join(sorted(unmatched)))

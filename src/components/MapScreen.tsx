@@ -1,16 +1,15 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
-import { ALL_CATEGORIES, CATEGORY_LABELS, WORLD_LABELS, type Calibration, type Category, type Entry, type MapLocation, type World } from '../types';
+import { ALL_CATEGORIES, CATEGORY_LABELS, type Calibration, type Category, type Entry, type MapLocation } from '../types';
 import { ENTRIES, ENTRY_BY_ID, LOCATIONS } from '../lib/loadData';
-import { defaultCalibration, entryCoords, MAP_IMAGES, solveCalibration, toPixels, toUnits, WORLD_UNITS, worldOf } from '../lib/coords';
-import { isVisibleForProfile, type StatusFilter } from '../lib/search';
+import { defaultCalibration, entryCoords, MAP_IMAGE, MAP_UNITS, solveCalibration, toPixels, toUnits } from '../lib/coords';
+import type { StatusFilter } from '../lib/search';
 import { actions, useProfile, useSettings } from '../state/store';
 import { CATEGORY_COLOURS, markerSvg } from './markerIcons';
 import { EntryDetail } from './EntryDetail';
 import { isTyping } from '../lib/dom';
 
 interface Props {
-  world: World;
   focus?: { id: string; place: boolean };
   onFocusHandled: () => void;
   selectedId: string | undefined;
@@ -35,14 +34,13 @@ interface CalibState {
 
 const FOCUS_ZOOM = 0.5;
 
-function defaultLandmarks(world: World): [string, string] {
-  const locs = LOCATIONS.filter((l) => l.world === world);
-  const by = (f: (l: MapLocation) => number) => locs.reduce((best, l) => (f(l) < f(best) ? l : best)).name;
+function defaultLandmarks(): [string, string] {
+  const by = (f: (l: MapLocation) => number) => LOCATIONS.reduce((best, l) => (f(l) < f(best) ? l : best)).name;
   // Opposite corners give the most accurate fit.
   return [by((l) => l.x + l.y), by((l) => -(l.x + l.y))];
 }
 
-export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, onJump }: Props) {
+export function MapScreen({ focus, onFocusHandled, selectedId, onSelect, onJump }: Props) {
   const profile = useProfile();
   const settings = useSettings();
   const elRef = useRef<HTMLDivElement>(null);
@@ -62,16 +60,16 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
 
   // ---- load the map image (or fall back to a grid) ----
   useEffect(() => {
-    const url = `${import.meta.env.BASE_URL}${MAP_IMAGES[world]}`;
+    const url = `${import.meta.env.BASE_URL}${MAP_IMAGE}`;
     const im = new Image();
     im.onload = () => setImg({ w: im.naturalWidth, h: im.naturalHeight, url });
-    im.onerror = () => setImg({ ...WORLD_UNITS[world] });
+    im.onerror = () => setImg({ ...MAP_UNITS });
     im.src = url;
-  }, [world]);
+  }, []);
 
   const savedCal = useMemo(
-    () => (img ? settings.calibration[world] ?? defaultCalibration(world, img.w, img.h) : undefined),
-    [img, settings.calibration, world],
+    () => (img ? settings.calibration ?? defaultCalibration(img.w, img.h) : undefined),
+    [img, settings.calibration],
   );
   const cal = calib?.result ?? savedCal;
 
@@ -108,31 +106,20 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
   }, [img]);
 
   // ---- entries on this map ----
-  const worldEntries = useMemo(
-    () =>
-      ENTRIES.filter((e) => {
-        if (!isVisibleForProfile(e, profile)) return false;
-        const c = entryCoords(e, settings);
-        return c && worldOf(c) === world;
-      }),
-    [profile, settings, world],
-  );
+  const mapEntries = useMemo(() => ENTRIES.filter((e) => entryCoords(e, settings)), [settings]);
 
   const shown = useMemo(
     () =>
-      worldEntries.filter((e) => {
+      mapEntries.filter((e) => {
         if (!cats.has(e.category)) return false;
         if (status === 'done' && !profile.done[e.id]) return false;
         if (status === 'todo' && profile.done[e.id]) return false;
         return true;
       }),
-    [worldEntries, cats, status, profile.done],
+    [mapEntries, cats, status, profile.done],
   );
 
-  const noCoords = useMemo(
-    () => ENTRIES.filter((e) => isVisibleForProfile(e, profile) && !entryCoords(e, settings)).length,
-    [profile, settings],
-  );
+  const noCoords = ENTRIES.length - mapEntries.length;
 
   // ---- draw markers, grouping entries that share a spot ----
   useEffect(() => {
@@ -181,7 +168,6 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
     layer.clearLayers();
     if (!labelsOn) return;
     for (const l of LOCATIONS) {
-      if (l.world !== world) continue;
       const { px, py } = toPixels(l, cal);
       const landmark = calLandmarks.includes(l.name);
       L.circleMarker([-py, px], { radius: landmark ? 6 : 3, className: landmark ? 'map-loc landmark' : 'map-loc', interactive: true })
@@ -189,7 +175,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
         .addTo(layer);
     }
     // calLandmarks is derived from calib; listing calib keeps the deps exact.
-  }, [labelsOn, cal, world, calib, mapReady]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [labelsOn, cal, calib, mapReady]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ---- map clicks: placing a marker or calibrating ----
   clickRef.current = (px, py) => {
@@ -197,8 +183,8 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
     if (calib) {
       if (!calib.pa) setCalib({ ...calib, pa: { px, py }, error: undefined });
       else if (!calib.pb) {
-        const a = LOCATIONS.find((l) => l.world === world && l.name === calib.a)!;
-        const b = LOCATIONS.find((l) => l.world === world && l.name === calib.b)!;
+        const a = LOCATIONS.find((l) => l.name === calib.a)!;
+        const b = LOCATIONS.find((l) => l.name === calib.b)!;
         const r = solveCalibration({ ...a, ...calib.pa }, { ...b, px, py });
         setCalib(typeof r === 'string' ? { ...calib, pa: undefined, error: r } : { ...calib, pb: { px, py }, result: r });
       }
@@ -206,7 +192,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
     }
     if (placingId) {
       const u = toUnits(px, py, cal);
-      actions.setCoordOverride(placingId, { x: Math.round(u.x * 10) / 10, y: Math.round(u.y * 10) / 10, world });
+      actions.setCoordOverride(placingId, { x: Math.round(u.x * 10) / 10, y: Math.round(u.y * 10) / 10 });
       onSelect(placingId);
       setPlacingId(undefined);
     }
@@ -216,11 +202,11 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
     (id: string) => {
       const e = ENTRY_BY_ID.get(id);
       const c = e && entryCoords(e, settings);
-      if (!c || !cal || !mapRef.current || worldOf(c) !== world) return;
+      if (!c || !cal || !mapRef.current) return;
       const { px, py } = toPixels(c, cal);
       mapRef.current.setView([-py, px], Math.max(mapRef.current.getZoom(), FOCUS_ZOOM));
     },
-    [settings, cal, world],
+    [settings, cal],
   );
 
   // ---- arriving from "show on map" ----
@@ -249,8 +235,8 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
 
   const selected = selectedId ? ENTRY_BY_ID.get(selectedId) : undefined;
   const placing = placingId ? ENTRY_BY_ID.get(placingId) : undefined;
-  const worldLocs = useMemo(() => LOCATIONS.filter((l) => l.world === world).sort((a, b) => a.name.localeCompare(b.name)), [world]);
-  const catCount = (c: Category) => worldEntries.filter((e) => e.category === c).length;
+  const sortedLocs = useMemo(() => [...LOCATIONS].sort((a, b) => a.name.localeCompare(b.name)), []);
+  const catCount = (c: Category) => mapEntries.filter((e) => e.category === c).length;
 
   return (
     <div className="map-screen">
@@ -258,7 +244,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
         <div ref={elRef} className={`map${placing || calib ? ' crosshair' : ''}${settings.colourMarkers ? '' : ' mono'}`} />
         {img && !img.url && (
           <div className="map-banner">
-            NO MAP IMAGE: add public/{MAP_IMAGES[world]} to see the {WORLD_LABELS[world]} map. Showing a grid with named locations.
+            NO MAP IMAGE: add public/{MAP_IMAGE} to see the Commonwealth map. Showing a grid with named locations.
           </div>
         )}
         {placing && (
@@ -271,14 +257,14 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
       <aside className="map-side">
         {calib ? (
           <section className="calib">
-            <h3>CALIBRATE {WORLD_LABELS[world].toUpperCase()}</h3>
+            <h3>CALIBRATE MAP</h3>
             <p className="small dim">
               Pick two landmarks far apart (ideally opposite corners), then click exactly where each one is on your map image.
             </p>
             <label className="field">
               <span>LANDMARK A</span>
               <select value={calib.a} onChange={(ev) => setCalib({ ...calib, a: ev.target.value, pa: undefined, pb: undefined, result: undefined })}>
-                {worldLocs.map((l) => (
+                {sortedLocs.map((l) => (
                   <option key={l.name}>{l.name}</option>
                 ))}
               </select>
@@ -286,7 +272,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
             <label className="field">
               <span>LANDMARK B</span>
               <select value={calib.b} onChange={(ev) => setCalib({ ...calib, b: ev.target.value, pb: undefined, result: undefined })}>
-                {worldLocs.map((l) => (
+                {sortedLocs.map((l) => (
                   <option key={l.name}>{l.name}</option>
                 ))}
               </select>
@@ -301,7 +287,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
               <button
                 disabled={!calib.result}
                 onClick={() => {
-                  actions.setCalibration(world, calib.result);
+                  actions.setCalibration(calib.result);
                   setCalib(null);
                 }}
               >
@@ -310,11 +296,11 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
               <button onClick={() => setCalib({ a: calib.a, b: calib.b })}>RETRY</button>
               <button onClick={() => setCalib(null)}>CANCEL</button>
             </div>
-            {settings.calibration[world] && (
+            {settings.calibration && (
               <button
                 className="small-btn"
                 onClick={() => {
-                  actions.setCalibration(world, undefined);
+                  actions.setCalibration(undefined);
                   setCalib(null);
                 }}
               >
@@ -360,7 +346,7 @@ export function MapScreen({ world, focus, onFocusHandled, selectedId, onSelect, 
                 </label>
                 <button
                   onClick={() => {
-                    const [a, b] = defaultLandmarks(world);
+                    const [a, b] = defaultLandmarks();
                     setCalib({ a, b });
                   }}
                 >

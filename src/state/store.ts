@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react';
-import { ALL_DLC, type Coords, type Profile, type SaveFile, type Settings, type World, type Calibration } from '../types';
+import type { Coords, Profile, SaveFile, Settings, Calibration } from '../types';
 
 const STORAGE_KEY = 'fo4-tracker:v1';
 
@@ -11,7 +11,6 @@ export const DEFAULT_SETTINGS: Settings = {
   vignette: true,
   flicker: false,
   colourMarkers: true,
-  calibration: {},
   coordOverrides: {},
 };
 
@@ -20,7 +19,7 @@ function newId(): string {
 }
 
 export function newProfile(name: string): Profile {
-  return { id: newId(), name, created: new Date().toISOString(), done: {}, notes: {}, enabledDLC: [...ALL_DLC] };
+  return { id: newId(), name, created: new Date().toISOString(), done: {}, notes: {} };
 }
 
 function freshSave(): SaveFile {
@@ -34,21 +33,39 @@ export function validateSave(data: unknown): SaveFile {
   if (!d || typeof d !== 'object' || d.app !== 'fo4-tracker') throw new Error('Not an FO4 tracker save file.');
   if (d.version !== 1) throw new Error(`Unsupported save version: ${String(d.version)}`);
   if (!Array.isArray(d.profiles) || d.profiles.length === 0) throw new Error('Save file contains no profiles.');
-  const profiles = d.profiles.map((p) => ({
-    ...newProfile(p.name ?? 'Unnamed'),
-    ...p,
-    done: p.done ?? {},
-    notes: p.notes ?? {},
-    enabledDLC: p.enabledDLC ?? [...ALL_DLC],
-  }));
+  const profiles = d.profiles.map((p) => {
+    // Older saves carried per-profile DLC toggles; the tracker is base game only now.
+    const rest: Partial<Profile> & { enabledDLC?: unknown } = { ...p };
+    delete rest.enabledDLC;
+    return { ...newProfile(p.name ?? 'Unnamed'), ...rest, done: p.done ?? {}, notes: p.notes ?? {} };
+  });
   const active = profiles.some((p) => p.id === d.activeProfileId) ? d.activeProfileId! : profiles[0].id;
   return {
     app: 'fo4-tracker',
     version: 1,
     activeProfileId: active,
     profiles,
-    settings: { ...DEFAULT_SETTINGS, ...d.settings },
+    settings: migrateSettings(d.settings),
   };
+}
+
+/**
+ * Older saves stored calibration and placed markers per map (Commonwealth,
+ * Far Harbor, Nuka-World). Keep the Commonwealth ones and drop the rest.
+ */
+function migrateSettings(raw: Partial<Settings> | undefined): Settings {
+  const s = { ...DEFAULT_SETTINGS, ...raw };
+  const cal = s.calibration as unknown as Record<string, unknown> | undefined;
+  if (cal && !('ax' in cal)) s.calibration = cal.commonwealth as Calibration | undefined;
+  if (!s.calibration) delete s.calibration;
+  const overrides: Record<string, Coords> = {};
+  for (const [id, c] of Object.entries(s.coordOverrides ?? {})) {
+    const world = (c as Coords & { world?: string }).world;
+    if (world && world !== 'commonwealth') continue;
+    overrides[id] = { x: c.x, y: c.y };
+  }
+  s.coordOverrides = overrides;
+  return s;
 }
 
 function loadSave(): SaveFile {
@@ -127,16 +144,10 @@ export const actions = {
       return { ...p, notes };
     });
   },
-  setEnabledDLC(dlc: Profile['enabledDLC']) {
-    updateProfile((p) => ({ ...p, enabledDLC: dlc }));
-  },
   updateSettings(patch: Partial<Settings>) {
     set({ ...state, settings: { ...state.settings, ...patch } });
   },
-  setCalibration(world: World, cal: Calibration | undefined) {
-    const calibration = { ...state.settings.calibration };
-    if (cal) calibration[world] = cal;
-    else delete calibration[world];
+  setCalibration(calibration: Calibration | undefined) {
     actions.updateSettings({ calibration });
   },
   setCoordOverride(id: string, coords: Coords | undefined) {

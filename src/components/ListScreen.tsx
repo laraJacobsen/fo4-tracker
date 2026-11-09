@@ -32,7 +32,7 @@ export const ListScreen = forwardRef<HTMLInputElement, Props>(function ListScree
     return applyFilters(base, searching ? filters : { ...filters, category: 'all' }, profile, settings);
   }, [view, filters, searching, profile, settings]);
 
-  const total = searching ? entries.length : ENTRIES.filter(view.match).filter((e) => profile.enabledDLC.includes(e.dlc)).length;
+  const total = searching ? entries.length : ENTRIES.filter(view.match).length;
   const grouped = !searching && filters.sort === 'default' ? view.groupBy : undefined;
 
   return (

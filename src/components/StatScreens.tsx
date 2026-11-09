@@ -1,6 +1,5 @@
-import { ALL_CATEGORIES, CATEGORY_LABELS, DLC_LABELS, type Entry } from '../types';
+import { ALL_CATEGORIES, CATEGORY_LABELS, type Entry } from '../types';
 import { ENTRIES, ENTRY_BY_ID } from '../lib/loadData';
-import { isVisibleForProfile } from '../lib/search';
 import { actions, useProfile } from '../state/store';
 import { Badges } from './Badges';
 
@@ -22,11 +21,10 @@ function Bar({ label, done, total }: { label: string; done: number; total: numbe
 
 export function StatStatus() {
   const profile = useProfile();
-  const visible = ENTRIES.filter((e) => isVisibleForProfile(e, profile));
+  const visible = ENTRIES;
   const count = (list: Entry[]) => [list.filter((e) => profile.done[e.id]).length, list.length] as const;
   const [doneAll, totalAll] = count(visible);
   const unverified = visible.filter((e) => !e.verified).length;
-  const dlcs = profile.enabledDLC.filter((d) => visible.some((e) => e.dlc === d));
 
   return (
     <div className="stat-screen">
@@ -41,15 +39,6 @@ export function StatStatus() {
           return <Bar key={c} label={CATEGORY_LABELS[c].toUpperCase()} done={d} total={t} />;
         })}
       </section>
-      {dlcs.length > 1 && (
-        <section>
-          <h3>BY CONTENT</h3>
-          {dlcs.map((dlc) => {
-            const [d, t] = count(visible.filter((e) => e.dlc === dlc));
-            return <Bar key={dlc} label={DLC_LABELS[dlc].toUpperCase()} done={d} total={t} />;
-          })}
-        </section>
-      )}
       <p className="dim small">
         {unverified} of {totalAll} entries are unverified (marked <span className="badge q">?</span>).
       </p>
@@ -86,7 +75,7 @@ export function StatRecent() {
 /** Missable or choice-locked entries that are still open: the "don't forget" list. */
 export function StatWarnings({ onJump }: { onJump: (id: string) => void }) {
   const profile = useProfile();
-  const open = ENTRIES.filter((e) => isVisibleForProfile(e, profile) && (e.missable || e.lockedBy) && !profile.done[e.id]);
+  const open = ENTRIES.filter((e) => (e.missable || e.lockedBy) && !profile.done[e.id]);
   if (!open.length) return <div className="empty">NO OPEN MISSABLE OR LOCKED ENTRIES</div>;
   return (
     <ul className="plain-list">

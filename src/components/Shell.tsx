@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { TOP_TABS, type TopTab, type View } from '../views';
 import { useProfile } from '../state/store';
 import { ENTRIES } from '../lib/loadData';
-import { isVisibleForProfile } from '../lib/search';
 
 export function TopTabs({ active, onChange }: { active: TopTab; onChange: (t: TopTab) => void }) {
   return (
@@ -51,7 +50,7 @@ export function SubTabs({ views, active, onChange }: { views: View[]; active: nu
 
 export function StatusBar() {
   const profile = useProfile();
-  const visible = ENTRIES.filter((e) => isVisibleForProfile(e, profile));
+  const visible = ENTRIES;
   const done = visible.filter((e) => profile.done[e.id]).length;
   const pct = visible.length ? Math.floor((done / visible.length) * 100) : 0;
   return (

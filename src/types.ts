@@ -1,24 +1,3 @@
-export type DLC =
-  | 'base'
-  | 'automatron'
-  | 'farharbor'
-  | 'nukaworld'
-  | 'vaultworkshop'
-  | 'contraptions'
-  | 'wastelandworkshop';
-
-export const DLC_LABELS: Record<DLC, string> = {
-  base: 'Base game',
-  automatron: 'Automatron',
-  farharbor: 'Far Harbor',
-  nukaworld: 'Nuka-World',
-  vaultworkshop: 'Vault-Tec Workshop',
-  contraptions: 'Contraptions Workshop',
-  wastelandworkshop: 'Wasteland Workshop',
-};
-
-export const ALL_DLC = Object.keys(DLC_LABELS) as DLC[];
-
 export type Category =
   | 'magazine'
   | 'bobblehead'
@@ -52,15 +31,6 @@ export const FACTION_LABELS: Record<Faction, string> = {
   other: 'Other',
 };
 
-/** Separate in-game worldspaces, each with its own map image. */
-export type World = 'commonwealth' | 'farharbor' | 'nukaworld';
-
-export const WORLD_LABELS: Record<World, string> = {
-  commonwealth: 'Commonwealth',
-  farharbor: 'Far Harbor',
-  nukaworld: 'Nuka-World',
-};
-
 /**
  * Map units: the 2048x2048 grid used by the Fallout Wiki's interactive maps,
  * origin top-left, y pointing down. Calibration maps these to image pixels.
@@ -68,14 +38,12 @@ export const WORLD_LABELS: Record<World, string> = {
 export interface Coords {
   x: number;
   y: number;
-  world?: World; // defaults to commonwealth
 }
 
 export interface BaseEntry {
   id: string;
   name: string;
   category: Category;
-  dlc: DLC;
   location: string;
   where: string;
   coords?: Coords;
@@ -155,7 +123,6 @@ export interface MapLocation {
   name: string;
   x: number;
   y: number;
-  world: World;
 }
 
 // ---- user state ----
@@ -163,7 +130,7 @@ export interface MapLocation {
 export type Tint = 'green' | 'amber' | 'blue' | 'white';
 export type Font = 'sharetech' | 'vt323';
 
-/** Linear transform from map units to image pixels for one world. */
+/** Linear transform from map units to image pixels. */
 export interface Calibration {
   ax: number;
   bx: number;
@@ -178,7 +145,6 @@ export interface Profile {
   /** entryId -> ISO timestamp of completion */
   done: Record<string, string>;
   notes: Record<string, string>;
-  enabledDLC: DLC[];
 }
 
 export interface Settings {
@@ -189,7 +155,8 @@ export interface Settings {
   vignette: boolean;
   flicker: boolean;
   colourMarkers: boolean;
-  calibration: Partial<Record<World, Calibration>>;
+  /** Unset: the map image covers the whole wiki grid. */
+  calibration?: Calibration;
   /** User-placed marker positions (map units), keyed by entry id. */
   coordOverrides: Record<string, Coords>;
 }

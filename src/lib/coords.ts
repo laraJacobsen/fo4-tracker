@@ -1,21 +1,9 @@
-import type { Calibration, Coords, Entry, Settings, World } from '../types';
+import type { Calibration, Coords, Entry, Settings } from '../types';
 
-/** Size of the Fallout Wiki map grid each world's coordinates are expressed in. */
-export const WORLD_UNITS: Record<World, { w: number; h: number }> = {
-  commonwealth: { w: 2048, h: 2048 },
-  farharbor: { w: 1994, h: 1945 },
-  nukaworld: { w: 2048, h: 2048 },
-};
+/** Size of the Fallout Wiki map grid the coordinates are expressed in. */
+export const MAP_UNITS = { w: 2048, h: 2048 };
 
-export const MAP_IMAGES: Record<World, string> = {
-  commonwealth: 'map.jpg',
-  farharbor: 'map-farharbor.jpg',
-  nukaworld: 'map-nukaworld.jpg',
-};
-
-export function worldOf(c: Coords): World {
-  return c.world ?? 'commonwealth';
-}
+export const MAP_IMAGE = 'map.jpg';
 
 /** Coordinates to use for an entry: a user override wins over the data file. */
 export function entryCoords(e: Entry, settings: Settings): Coords | undefined {
@@ -23,9 +11,8 @@ export function entryCoords(e: Entry, settings: Settings): Coords | undefined {
 }
 
 /** Default calibration: the image covers the whole wiki grid. */
-export function defaultCalibration(world: World, imgW: number, imgH: number): Calibration {
-  const u = WORLD_UNITS[world];
-  return { ax: imgW / u.w, bx: 0, ay: imgH / u.h, by: 0 };
+export function defaultCalibration(imgW: number, imgH: number): Calibration {
+  return { ax: imgW / MAP_UNITS.w, bx: 0, ay: imgH / MAP_UNITS.h, by: 0 };
 }
 
 export function toPixels(c: { x: number; y: number }, cal: Calibration) {

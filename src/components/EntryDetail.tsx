@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { CATEGORY_LABELS, DLC_LABELS, FACTION_LABELS, type Entry } from '../types';
+import { CATEGORY_LABELS, FACTION_LABELS, type Entry } from '../types';
 import { actions, useProfile, useSettings } from '../state/store';
 import { ENTRY_BY_ID } from '../lib/loadData';
 import { entryCoords } from '../lib/coords';
@@ -106,7 +106,7 @@ export function EntryDetail({ entry: e, onShowOnMap, onJump }: Props) {
         {e.name} <Badges e={e} />
       </h2>
       <div className="detail-sub dim">
-        {CATEGORY_LABELS[e.category].toUpperCase()} · {DLC_LABELS[e.dlc].toUpperCase()}
+        {CATEGORY_LABELS[e.category].toUpperCase()}
       </div>
 
       <dl>

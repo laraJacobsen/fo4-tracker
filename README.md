@@ -11,7 +11,7 @@ npm run data:wiki
 
 Re-running only adds entries that are missing; existing entries (and any hand
 edits to them) are left alone. Delete an entry to have it regenerated.
-Creation Club content is skipped.
+Only base-game content is imported (no DLC or Creation Club).
 
 ---
 

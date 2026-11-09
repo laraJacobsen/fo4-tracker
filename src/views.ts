@@ -1,4 +1,4 @@
-import { DLC_LABELS, type Entry, type Faction, type World } from './types';
+import type { Entry, Faction } from './types';
 
 export type TopTab = 'STAT' | 'INV' | 'DATA' | 'MAP' | 'RADIO';
 export const TOP_TABS: TopTab[] = ['STAT', 'INV', 'DATA', 'MAP', 'RADIO'];
@@ -12,20 +12,19 @@ export interface ListView {
 }
 
 export interface OtherView {
-  kind: 'stat-status' | 'stat-recent' | 'stat-warnings' | 'radio-display' | 'radio-content' | 'radio-profiles' | 'radio-backup';
+  kind: 'stat-status' | 'stat-recent' | 'stat-warnings' | 'radio-display' | 'radio-profiles' | 'radio-backup';
   label: string;
 }
 
 export interface MapView {
   kind: 'map';
   label: string;
-  world: World;
 }
 
 export type View = ListView | OtherView | MapView;
 
 const factionQuests = (f: Faction) => (e: Entry) =>
-  e.category === 'quest' && e.dlc === 'base' && e.questType === 'faction' && e.faction === f;
+  e.category === 'quest' && e.questType === 'faction' && e.faction === f;
 
 export const SUB_TABS: Record<TopTab, View[]> = {
   STAT: [
@@ -71,29 +70,20 @@ export const SUB_TABS: Record<TopTab, View[]> = {
     },
   ],
   DATA: [
-    { kind: 'list', label: 'MAIN', match: (e) => e.category === 'quest' && e.dlc === 'base' && e.questType === 'main' },
+    { kind: 'list', label: 'MAIN', match: (e) => e.category === 'quest' && e.questType === 'main' },
     { kind: 'list', label: 'MINUTEMEN', match: factionQuests('minutemen') },
     { kind: 'list', label: 'BROTHERHOOD', match: factionQuests('brotherhood') },
     { kind: 'list', label: 'RAILROAD', match: factionQuests('railroad') },
     { kind: 'list', label: 'INSTITUTE', match: factionQuests('institute') },
-    { kind: 'list', label: 'SIDE', match: (e) => e.category === 'quest' && e.dlc === 'base' && e.questType === 'side' },
-    { kind: 'list', label: 'MISC', match: (e) => e.category === 'quest' && e.dlc === 'base' && e.questType === 'misc' },
-    {
-      kind: 'list',
-      label: 'DLC',
-      match: (e) => e.category === 'quest' && e.dlc !== 'base',
-      groupBy: (e) => DLC_LABELS[e.dlc],
-    },
-    { kind: 'list', label: 'LOCATIONS', match: (e) => e.category === 'unmarked', groupBy: (e) => DLC_LABELS[e.dlc] },
+    { kind: 'list', label: 'SIDE', match: (e) => e.category === 'quest' && e.questType === 'side' },
+    { kind: 'list', label: 'MISC', match: (e) => e.category === 'quest' && e.questType === 'misc' },
+    { kind: 'list', label: 'LOCATIONS', match: (e) => e.category === 'unmarked' },
   ],
   MAP: [
-    { kind: 'map', label: 'COMMONWEALTH', world: 'commonwealth' },
-    { kind: 'map', label: 'FAR HARBOR', world: 'farharbor' },
-    { kind: 'map', label: 'NUKA-WORLD', world: 'nukaworld' },
+    { kind: 'map', label: 'COMMONWEALTH' },
   ],
   RADIO: [
     { kind: 'radio-display', label: 'DISPLAY' },
-    { kind: 'radio-content', label: 'DLC' },
     { kind: 'radio-profiles', label: 'PROFILES' },
     { kind: 'radio-backup', label: 'BACKUP' },
   ],
