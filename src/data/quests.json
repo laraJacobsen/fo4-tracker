@@ -1,0 +1,123 @@
+[
+  {
+    "id": "quest-war-never-changes",
+    "name": "War Never Changes",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Sanctuary Hills",
+    "where": "Quest locations: Sanctuary Hills (pre-War), Vault 111 (pre-War)",
+    "coords": {
+      "x": 476.5,
+      "y": 179.5
+    },
+    "coordsApprox": true,
+    "reward": "Vault 111 jumpsuit",
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/War_Never_Changes"
+  },
+  {
+    "id": "quest-out-of-time",
+    "name": "Out of Time",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Vault 111",
+    "where": "Quest locations: Vault 111, Sanctuary Hills, Concord",
+    "coords": {
+      "x": 409.5,
+      "y": 146
+    },
+    "coordsApprox": true,
+    "reward": "200+ XP, Pip-Boy 3000 Mark IV, Codsworth as a companion",
+    "prerequisites": [
+      "quest-war-never-changes"
+    ],
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Out_of_Time"
+  },
+  {
+    "id": "quest-jewel-of-the-commonwealth",
+    "name": "Jewel of the Commonwealth",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Diamond City",
+    "where": "Quest locations: Diamond City",
+    "coords": {
+      "x": 965.5,
+      "y": 1086.5
+    },
+    "coordsApprox": true,
+    "giver": "Mama Murphy or Irma",
+    "reward": "150+ XP",
+    "prerequisites": [
+      "quest-out-of-time"
+    ],
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Jewel_of_the_Commonwealth"
+  },
+  {
+    "id": "quest-unlikely-valentine",
+    "name": "Unlikely Valentine",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Park Street station",
+    "where": "Quest locations: Park Street station, Vault 114",
+    "coords": {
+      "x": 1219.5,
+      "y": 980
+    },
+    "coordsApprox": true,
+    "giver": "Ellie Perkins (or go straight to Park Street station from Vault 111)",
+    "reward": "200+ XP, 100 caps, Worn fedora, Faded trench coat",
+    "prerequisites": [
+      "quest-jewel-of-the-commonwealth"
+    ],
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Unlikely_Valentine"
+  },
+  {
+    "id": "quest-getting-a-clue",
+    "name": "Getting a Clue",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Diamond City",
+    "where": "Quest locations: Diamond City",
+    "coords": {
+      "x": 965.5,
+      "y": 1086.5
+    },
+    "coordsApprox": true,
+    "giver": "Nick Valentine",
+    "reward": "200+ XP, Nick Valentine as a companion",
+    "prerequisites": [
+      "quest-unlikely-valentine"
+    ],
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Getting_a_Clue"
+  },
+  {
+    "id": "quest-reunions",
+    "name": "Reunions",
+    "category": "quest",
+    "dlc": "base",
+    "questType": "main",
+    "location": "Fort Hagen",
+    "where": "Quest locations: Fort Hagen",
+    "coords": {
+      "x": 420.5,
+      "y": 899
+    },
+    "coordsApprox": true,
+    "giver": "Nick Valentine",
+    "reward": "250+ XP, Kellogg's pistol, Kellogg's outfit",
+    "prerequisites": [
+      "quest-getting-a-clue"
+    ],
+    "verified": true,
+    "source": "https://fallout.fandom.com/wiki/Reunions"
+  }
+]

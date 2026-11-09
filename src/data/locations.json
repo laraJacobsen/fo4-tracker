@@ -1,0 +1,3116 @@
+[
+  {
+    "name": "Vault 111",
+    "x": 409.5,
+    "y": 146,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sanctuary Hills",
+    "x": 476.5,
+    "y": 179.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket truck stop",
+    "x": 562.5,
+    "y": 237.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Ranger cabin",
+    "x": 417,
+    "y": 303,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wicked Shipping Fleet Lockup",
+    "x": 448,
+    "y": 361,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Abernathy farm",
+    "x": 507.5,
+    "y": 337.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Concord",
+    "x": 636,
+    "y": 297.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Museum of Freedom",
+    "x": 661,
+    "y": 316.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Robotics disposal ground",
+    "x": 686.2,
+    "y": 85.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "USAF satellite station Olivia",
+    "x": 786,
+    "y": 139.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Thicket Excavations",
+    "x": 753.5,
+    "y": 219.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Gorski cabin",
+    "x": 608.5,
+    "y": 407.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Drumlin Diner",
+    "x": 710.5,
+    "y": 429.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Starlight Drive In",
+    "x": 800.5,
+    "y": 414.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Bedford Station",
+    "x": 872.5,
+    "y": 318,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wildwood Cemetery",
+    "x": 1014.5,
+    "y": 337,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Tenpines Bluff",
+    "x": 931,
+    "y": 172,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Outpost Zimonja",
+    "x": 1019.2,
+    "y": 84.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Skylanes Flight 1981",
+    "x": 1064,
+    "y": 240.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Radio tower 3SM-U81",
+    "x": 1211.8,
+    "y": 174.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "General Atomics galleria",
+    "x": 1148.5,
+    "y": 224.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lake Quannapowitt",
+    "x": 1137.5,
+    "y": 138,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Dark Hollow Pond",
+    "x": 1173.5,
+    "y": 278.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Old Corner Bookstore",
+    "x": 1263.8,
+    "y": 906.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Fusion containment shed",
+    "x": 1255.5,
+    "y": 257,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Recon bunker Theta",
+    "x": 1256,
+    "y": 68.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Old Gullet sinkhole",
+    "x": 1270,
+    "y": 329.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Breakheart Banks",
+    "x": 1382,
+    "y": 259.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Malden Center",
+    "x": 1218,
+    "y": 399.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Medford Memorial Hospital",
+    "x": 1187,
+    "y": 395,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Slocum's Joe Corporate HQ",
+    "x": 1233.5,
+    "y": 417,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Malden Middle School",
+    "x": 1249.2,
+    "y": 384.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Med-Tek research",
+    "x": 1280.5,
+    "y": 435.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Greentop Nursery",
+    "x": 1330,
+    "y": 338,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lynn Woods",
+    "x": 1430.5,
+    "y": 153,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Listening Post Bravo",
+    "x": 1397,
+    "y": 373.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Parsons Creamery",
+    "x": 1487,
+    "y": 87.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Parsons State Insane Asylum",
+    "x": 1509.5,
+    "y": 184.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Slog",
+    "x": 1505,
+    "y": 319,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Saugus Ironworks",
+    "x": 1527.5,
+    "y": 405.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Finch farm",
+    "x": 1529,
+    "y": 491,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Reeb Marina",
+    "x": 1552,
+    "y": 564.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Gibson Point Pier",
+    "x": 1609,
+    "y": 532,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Revere satellite array",
+    "x": 1506,
+    "y": 571.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Revere Beach station",
+    "x": 1548.5,
+    "y": 627,
+    "world": "commonwealth"
+  },
+  {
+    "name": "National Guard training yard",
+    "x": 1406,
+    "y": 549,
+    "world": "commonwealth"
+  },
+  {
+    "name": "County Crossing",
+    "x": 1401,
+    "y": 618.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Relay tower 0MC-810",
+    "x": 1303.9,
+    "y": 560.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Taffington boathouse",
+    "x": 1153.5,
+    "y": 507.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "West Everett Estates",
+    "x": 1207.5,
+    "y": 564.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Poseidon Energy Turbine #18-F",
+    "x": 1185.2,
+    "y": 624,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Irish Pride Industries shipyard",
+    "x": 1245,
+    "y": 652.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Tucker Memorial Bridge",
+    "x": 1114,
+    "y": 610.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Coastal cottage",
+    "x": 1640.5,
+    "y": 169.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mahkra Fishpacking",
+    "x": 1750.5,
+    "y": 94.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Rook family house",
+    "x": 1836,
+    "y": 193.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Salem",
+    "x": 1825.5,
+    "y": 236,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sandy Coves Convalescent Home",
+    "x": 1796,
+    "y": 245,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Museum of Witchcraft",
+    "x": 1756,
+    "y": 288,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Crater house",
+    "x": 1803,
+    "y": 318,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hugo's Hole",
+    "x": 1668,
+    "y": 298,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Dunwich Borers",
+    "x": 1623,
+    "y": 313.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Kingsport Lighthouse",
+    "x": 1794.5,
+    "y": 391,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Longneck Lukowski's Cannery",
+    "x": 1722.5,
+    "y": 431.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lynn Pier parking",
+    "x": 1634.5,
+    "y": 464.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hub City Auto Wreckers",
+    "x": 1578.5,
+    "y": 414.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Libertalia",
+    "x": 1717.5,
+    "y": 716,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nahant Wharf",
+    "x": 1738,
+    "y": 654.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nahant Sherrif's Department",
+    "x": 1746,
+    "y": 635,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Croup Manor",
+    "x": 1810,
+    "y": 574,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nahant Chapel",
+    "x": 1884,
+    "y": 600,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nahant Oceanological Society",
+    "x": 1920,
+    "y": 662.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Rotten landfill",
+    "x": 927.5,
+    "y": 374,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lexington",
+    "x": 846,
+    "y": 544.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Super Duper Mart",
+    "x": 833,
+    "y": 524,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lexington apartments",
+    "x": 885.5,
+    "y": 572,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Corvega assembly plant",
+    "x": 829.5,
+    "y": 613.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mystic Pines",
+    "x": 914.5,
+    "y": 502,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Covenant",
+    "x": 1040,
+    "y": 495,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Jalbert Brothers Disposal",
+    "x": 740,
+    "y": 657,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Graygarden",
+    "x": 730,
+    "y": 717.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Rocky Narrows Park",
+    "x": 670,
+    "y": 649.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "ArcJet Systems",
+    "x": 579,
+    "y": 704.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Federal ration stockpile",
+    "x": 450.5,
+    "y": 678.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lonely chapel",
+    "x": 397.5,
+    "y": 633,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sunshine Tidings co-op",
+    "x": 431,
+    "y": 563.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Walden Pond",
+    "x": 566.5,
+    "y": 517,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wreck of the USS Riptide",
+    "x": 966.4,
+    "y": 936.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "C.I.T. ruins",
+    "x": 971.5,
+    "y": 882,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Institute",
+    "x": 972.5,
+    "y": 838,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge Polymer Labs",
+    "x": 891,
+    "y": 880.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fraternal post 115",
+    "x": 895.9,
+    "y": 834.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge Police Station",
+    "x": 876,
+    "y": 777,
+    "world": "commonwealth"
+  },
+  {
+    "name": "College Square",
+    "x": 872,
+    "y": 747.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Collegiate administration building",
+    "x": 929,
+    "y": 737,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge campus diner",
+    "x": 927.5,
+    "y": 797.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Campus law offices",
+    "x": 945.5,
+    "y": 813.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Kendall Hospital",
+    "x": 983,
+    "y": 779.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Gravel & Sand",
+    "x": 949.5,
+    "y": 648.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wattz Consumer Electronics",
+    "x": 1053.5,
+    "y": 683.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge crater",
+    "x": 1087.5,
+    "y": 802.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Greenetech Genetics",
+    "x": 1082.5,
+    "y": 856,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Monsignor Plaza",
+    "x": 1138.5,
+    "y": 795.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Ticonderoga",
+    "x": 1135.5,
+    "y": 844,
+    "world": "commonwealth"
+  },
+  {
+    "name": "BADTFL regional office",
+    "x": 1182.5,
+    "y": 702.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Bunker Hill",
+    "x": 1242,
+    "y": 750.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "USS Constitution",
+    "x": 1310.5,
+    "y": 758.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Castle",
+    "x": 1474.5,
+    "y": 1218,
+    "world": "commonwealth"
+  },
+  {
+    "name": "General Atomics Factory",
+    "x": 1398,
+    "y": 1136.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Four Leaf fishpacking plant",
+    "x": 1360,
+    "y": 1106.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Gwinnett Brewery",
+    "x": 1350.5,
+    "y": 1183.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Gwinnett Restaurant",
+    "x": 1357,
+    "y": 1214,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Boston High School",
+    "x": 1347,
+    "y": 1247,
+    "world": "commonwealth"
+  },
+  {
+    "name": "University Point",
+    "x": 1284.5,
+    "y": 1304.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Boston Police Department",
+    "x": 1306,
+    "y": 1187,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Andrew station",
+    "x": 1272,
+    "y": 1189,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Boston military checkpoint",
+    "x": 1214,
+    "y": 1213.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Big John's Salvage",
+    "x": 1138.5,
+    "y": 1200.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Police rationing site",
+    "x": 974.5,
+    "y": 1157.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hardware Town",
+    "x": 921,
+    "y": 1128.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Pike Tunnel east",
+    "x": 1060.2,
+    "y": 1110,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Chestnut Hillock Reservoir",
+    "x": 881,
+    "y": 1049.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault 81",
+    "x": 809.5,
+    "y": 1037.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Relay tower 1DL-109",
+    "x": 705.1,
+    "y": 951.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Oberland station",
+    "x": 743.5,
+    "y": 898.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Beantown Brewery",
+    "x": 774.5,
+    "y": 826.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Diamond City",
+    "x": 965.5,
+    "y": 1086.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Diamond City market",
+    "x": 983.5,
+    "y": 1069.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fens Street sewer",
+    "x": 952.5,
+    "y": 1065.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Parkview Apartments",
+    "x": 931.5,
+    "y": 1082.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hangman's Alley",
+    "x": 941.5,
+    "y": 1001,
+    "world": "commonwealth"
+  },
+  {
+    "name": "East Boston police station",
+    "x": 1405.5,
+    "y": 782,
+    "world": "commonwealth"
+  },
+  {
+    "name": "East Boston Preparatory School",
+    "x": 1456.5,
+    "y": 764,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Easy City Downs",
+    "x": 1524,
+    "y": 760.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nordhagen Beach",
+    "x": 1598.5,
+    "y": 835.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Strong",
+    "x": 1698.5,
+    "y": 990.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Airport",
+    "x": 1478,
+    "y": 878,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Prydwen",
+    "x": 1504,
+    "y": 923,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Yangtze",
+    "x": 1425.5,
+    "y": 1029.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Custom House Tower",
+    "x": 1355.5,
+    "y": 942.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Old North Church",
+    "x": 1329,
+    "y": 854.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Railroad HQ",
+    "x": 1353.5,
+    "y": 867,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pickman Gallery",
+    "x": 1301.5,
+    "y": 836.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cabot House",
+    "x": 1245,
+    "y": 845.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Bugle building",
+    "x": 1241.5,
+    "y": 891,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Fusion building",
+    "x": 1245.5,
+    "y": 918,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Haymarket Mall",
+    "x": 1267.2,
+    "y": 883.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Garden terrace",
+    "x": 1291.5,
+    "y": 890.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Faneuil Hall",
+    "x": 1308.5,
+    "y": 905,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Postal Square",
+    "x": 1310,
+    "y": 975.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Shamrock Taphouse",
+    "x": 1348,
+    "y": 999,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Harbormaster Hotel",
+    "x": 1323.5,
+    "y": 1025.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallen skybridge",
+    "x": 1268.5,
+    "y": 983.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Goodneighbor",
+    "x": 1264.5,
+    "y": 949,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Old Granary burying ground",
+    "x": 1223.5,
+    "y": 960.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Massachusetts State House",
+    "x": 1201,
+    "y": 959.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault-Tec Regional HQ",
+    "x": 1197.5,
+    "y": 936,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Charles View Amphitheater",
+    "x": 1154.8,
+    "y": 924,
+    "world": "commonwealth"
+  },
+  {
+    "name": "HalluciGen, Inc.",
+    "x": 1148,
+    "y": 966.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hubris Comics",
+    "x": 1157,
+    "y": 1013.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Swan's Pond",
+    "x": 1188.1,
+    "y": 993.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Common",
+    "x": 1203,
+    "y": 991,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Park Street station",
+    "x": 1219.5,
+    "y": 980,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault 114",
+    "x": 1171.5,
+    "y": 986.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boylston Club",
+    "x": 1193,
+    "y": 1026,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Combat Zone",
+    "x": 1204,
+    "y": 1038.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Medical Center metro",
+    "x": 1221.5,
+    "y": 1071.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Bay Medical Center",
+    "x": 1252.5,
+    "y": 1061.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hester's Consumer Robotics",
+    "x": 1271.5,
+    "y": 1083,
+    "world": "commonwealth"
+  },
+  {
+    "name": "D.B. Technical High School",
+    "x": 1205,
+    "y": 1101,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wilson Atomatoys corporate HQ",
+    "x": 1152.1,
+    "y": 1076.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Trinity Tower",
+    "x": 1131,
+    "y": 1053,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Trinity Plaza",
+    "x": 1113.5,
+    "y": 1037,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Public Library",
+    "x": 1074.6,
+    "y": 1035,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Police Precinct 8",
+    "x": 1044,
+    "y": 1033,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Pike Tunnel west",
+    "x": 872.5,
+    "y": 1107,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Dartmouth Professional Building",
+    "x": 1115,
+    "y": 1099,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Layton Towers",
+    "x": 1088,
+    "y": 1094,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Back Street Apparel",
+    "x": 1020,
+    "y": 974,
+    "world": "commonwealth"
+  },
+  {
+    "name": "NH&M Freight Depot",
+    "x": 1058.5,
+    "y": 1159,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Jamaica Plain",
+    "x": 1178.5,
+    "y": 1352,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Shaw High School",
+    "x": 1076.5,
+    "y": 1347.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "West Roxbury station",
+    "x": 1041,
+    "y": 1343,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallon's department store",
+    "x": 1001.8,
+    "y": 1339.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Milton General Hospital",
+    "x": 1040.5,
+    "y": 1308,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fairline Hill Estates",
+    "x": 995,
+    "y": 1262,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Relay tower 0SC-527",
+    "x": 1068.6,
+    "y": 1238.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Hagen",
+    "x": 420.5,
+    "y": 899,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Hagen filling station",
+    "x": 426.5,
+    "y": 866,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Relay tower 0BB-915",
+    "x": 395.9,
+    "y": 823.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nuka-World transit center",
+    "x": 240,
+    "y": 693,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Hagen satellite array",
+    "x": 330.5,
+    "y": 881.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Greater Mass Blood Clinic",
+    "x": 422.5,
+    "y": 950,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Mayoral Shelter",
+    "x": 318.5,
+    "y": 974.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fiddler's Green Trailer Estates",
+    "x": 506,
+    "y": 858.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Weston water treatment plant",
+    "x": 628.5,
+    "y": 876.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Forest Grove marsh",
+    "x": 631,
+    "y": 1005,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Pike Interchange",
+    "x": 567,
+    "y": 1127.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Poseidon reservoir",
+    "x": 426.5,
+    "y": 1126.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Roadside Pines Motel",
+    "x": 409.5,
+    "y": 1175,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Natick Banks",
+    "x": 429.5,
+    "y": 1226.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Natick Police Department",
+    "x": 447.5,
+    "y": 1228.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lake Cochituate",
+    "x": 491,
+    "y": 1204,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Fusion disposal site",
+    "x": 554,
+    "y": 1281.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Electrical Hobbyist's Club",
+    "x": 655.5,
+    "y": 1279,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Westing Estate",
+    "x": 737.5,
+    "y": 1197,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Coast Guard pier",
+    "x": 843,
+    "y": 1256.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "WRVR Broadcast Station",
+    "x": 794,
+    "y": 1301,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Robotics Pioneer Park",
+    "x": 717,
+    "y": 1390,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Scrap palace",
+    "x": 759.8,
+    "y": 1435.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Egret Tours Marina",
+    "x": 863.5,
+    "y": 1341.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cutler Bend",
+    "x": 887.8,
+    "y": 1434,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Somerville Place",
+    "x": 822,
+    "y": 1571.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Gunners Plaza",
+    "x": 992.2,
+    "y": 1467,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Suffolk County Charter School",
+    "x": 1125.5,
+    "y": 1516,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hyde Park",
+    "x": 1155,
+    "y": 1446,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Murkwater construction site",
+    "x": 1143,
+    "y": 1596.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Neponset Park",
+    "x": 1270,
+    "y": 1423.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault 88",
+    "x": 1203,
+    "y": 1499,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wilson Atomatoys factory",
+    "x": 1249,
+    "y": 1570,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy police station",
+    "x": 1331.1,
+    "y": 1551.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Peabody house",
+    "x": 1369.5,
+    "y": 1581.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Poseidon Energy",
+    "x": 1428,
+    "y": 1559,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wreck of the FMS Northern Star",
+    "x": 1573.5,
+    "y": 1511.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Warwick homestead",
+    "x": 1546.5,
+    "y": 1441.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy Quarries",
+    "x": 1214.5,
+    "y": 1485.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy Ruins",
+    "x": 1311.5,
+    "y": 1520,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Spectacle Island",
+    "x": 1684,
+    "y": 1317.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Atom Cats garage",
+    "x": 1398,
+    "y": 1404.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Edge of the Glowing Sea",
+    "x": 667,
+    "y": 1466.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Decayed reactor site",
+    "x": 196,
+    "y": 1634.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Federal Surveillance Center K-21B",
+    "x": 291,
+    "y": 1508,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault 95",
+    "x": 722,
+    "y": 1548.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Federal supply cache 84NE",
+    "x": 391.5,
+    "y": 1437,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Relay tower 0DB-521",
+    "x": 685.6,
+    "y": 1721.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Atlantic Offices",
+    "x": 367.5,
+    "y": 1597,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hopesmarch Pentecostal Church",
+    "x": 636,
+    "y": 1647,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Capsized factory",
+    "x": 444,
+    "y": 1614,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vertibird wreckage",
+    "x": 622,
+    "y": 1703,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Skylanes Flight 1665",
+    "x": 603,
+    "y": 1820.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Super-Duper Mart Cave",
+    "x": 546.2,
+    "y": 1769.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cave (Glowing Sea)",
+    "x": 516,
+    "y": 1560,
+    "world": "commonwealth"
+  },
+  {
+    "name": "O'Neill Family Manufacturing",
+    "x": 496.5,
+    "y": 1868.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sentinel site",
+    "x": 485,
+    "y": 1953,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Rocky cave",
+    "x": 201.2,
+    "y": 1921.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Decrepit factory",
+    "x": 258.5,
+    "y": 1799.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Crater of Atom",
+    "x": 329,
+    "y": 1755.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Forgotten church",
+    "x": 165.5,
+    "y": 1536.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Waypoint Echo",
+    "x": 696.5,
+    "y": 1491,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nakano residence",
+    "x": 1720.6,
+    "y": 41.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "RobCo Sales & Service Center",
+    "x": 1431.5,
+    "y": 837,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Home Plate",
+    "x": 972.4,
+    "y": 1064.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Mechanist's lair",
+    "x": 1429,
+    "y": 729,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vault 75",
+    "x": 1249.8,
+    "y": 368.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Water filtration caps stash",
+    "x": 628.5,
+    "y": 172.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Switchboard",
+    "x": 725,
+    "y": 515.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Car tree camp",
+    "x": 1297,
+    "y": 99.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Compound",
+    "x": 959,
+    "y": 492.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Malden drainage",
+    "x": 1159.5,
+    "y": 450.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "ArcJet engine transport",
+    "x": 515.5,
+    "y": 945.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Coastal hideout",
+    "x": 1674,
+    "y": 146,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Shanty store",
+    "x": 1662.5,
+    "y": 231.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Vitale pumphouse",
+    "x": 1574,
+    "y": 471.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Nahant Bar and Restaurant",
+    "x": 1856.5,
+    "y": 628.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Natick power station",
+    "x": 312,
+    "y": 1241.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hillside home",
+    "x": 359.2,
+    "y": 1171.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Splintered statue",
+    "x": 845.5,
+    "y": 1491.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket",
+    "x": 1029.5,
+    "y": 1125,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Big John's Salvage)",
+    "x": 1184.8,
+    "y": 1163.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sniper's hideout",
+    "x": 908.2,
+    "y": 1605.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (College Square)",
+    "x": 889.8,
+    "y": 716,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Union's Hope Cathedral",
+    "x": 979.5,
+    "y": 728.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Plumber's Secret",
+    "x": 1011.9,
+    "y": 713.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Cambridge)",
+    "x": 1008.2,
+    "y": 758.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Prospect Hill",
+    "x": 1086,
+    "y": 740.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mass Chemical",
+    "x": 1142.7,
+    "y": 741.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Kendall Parking",
+    "x": 1104.2,
+    "y": 820.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Science Center gift shop",
+    "x": 1158.5,
+    "y": 819.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Drug den",
+    "x": 1288.8,
+    "y": 721.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Abandoned house",
+    "x": 1252.8,
+    "y": 774.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Charlestown Laundry",
+    "x": 1274.5,
+    "y": 761,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Bridgeway Trust",
+    "x": 1032,
+    "y": 984.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Anna's Cafe",
+    "x": 991.5,
+    "y": 1003,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Footbridge",
+    "x": 1097.5,
+    "y": 955.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Holy Mission Congregation",
+    "x": 1060.8,
+    "y": 984.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Barricade and rooftops",
+    "x": 1090,
+    "y": 975,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Marlborough house",
+    "x": 1122.8,
+    "y": 973,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Commonwealth Avenue",
+    "x": 1105,
+    "y": 985.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Warren Theater",
+    "x": 1183.5,
+    "y": 1057,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Shenley's Oyster Bar",
+    "x": 1146.5,
+    "y": 990.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "North End graveyard",
+    "x": 1285,
+    "y": 831.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pizza parlor",
+    "x": 1316.5,
+    "y": 808.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mean Pastries",
+    "x": 1293,
+    "y": 851.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wharfside cottage",
+    "x": 1338.2,
+    "y": 819.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Paul Revere House",
+    "x": 1343.2,
+    "y": 857.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Prost Bar",
+    "x": 1169.2,
+    "y": 972,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Baxter building",
+    "x": 1319.2,
+    "y": 876.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Commonwealth Bank",
+    "x": 1289.8,
+    "y": 908.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Railroad hideout",
+    "x": 1324,
+    "y": 932,
+    "world": "commonwealth"
+  },
+  {
+    "name": "35 Court",
+    "x": 1329.4,
+    "y": 947.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Water Street apartments",
+    "x": 1237,
+    "y": 954.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hub 360",
+    "x": 1279.5,
+    "y": 1004.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pearwood Residences",
+    "x": 1209.6,
+    "y": 944.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Ticker Tape Lounge",
+    "x": 1270.5,
+    "y": 1026.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Bus and apartment wreckage",
+    "x": 1264.2,
+    "y": 1154.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Joe's Spuckies sandwich shop",
+    "x": 1278.2,
+    "y": 1154,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Factory",
+    "x": 1310.5,
+    "y": 1130.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hawthorne Estate",
+    "x": 1272.2,
+    "y": 1233.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Dorchester Heights Monument",
+    "x": 1331.2,
+    "y": 1226.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Boston Church",
+    "x": 1373.2,
+    "y": 1220.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "L Street bathhouse",
+    "x": 1350,
+    "y": 1262.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Settler campsite",
+    "x": 372.2,
+    "y": 1266.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Parking garage",
+    "x": 533.5,
+    "y": 1697.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boxing gym",
+    "x": 1313.8,
+    "y": 844,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hoarder's apartment",
+    "x": 1263,
+    "y": 830.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Mean Pastries #2",
+    "x": 1287.5,
+    "y": 838,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Paul Revere Monument",
+    "x": 1327.8,
+    "y": 841.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Valenti station",
+    "x": 1326.9,
+    "y": 867.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Natick Banks)",
+    "x": 428.5,
+    "y": 1248.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Nahant)",
+    "x": 1742.5,
+    "y": 595.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Ruined clinic",
+    "x": 1257.9,
+    "y": 482.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Malden police station",
+    "x": 1229.3,
+    "y": 404.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Garage alcove",
+    "x": 1259.7,
+    "y": 415.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Slocum's Joe (Lexington)",
+    "x": 811.4,
+    "y": 536.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Lexington)",
+    "x": 808.6,
+    "y": 553.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lexington Pharmacy",
+    "x": 894.5,
+    "y": 575.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lexington Bank",
+    "x": 845.5,
+    "y": 537.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Faded Glory laundromat",
+    "x": 819.0,
+    "y": 543.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket (Glowing Sea)",
+    "x": 480,
+    "y": 1532,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wright's Inn (Concord)",
+    "x": 642,
+    "y": 288,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Workhouse",
+    "x": 652.3,
+    "y": 279.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Walden Drugs",
+    "x": 636.1,
+    "y": 293.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pinelli's Bakery",
+    "x": 628.9,
+    "y": 295.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Northwest house",
+    "x": 592.8,
+    "y": 255.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Municipal plutonium well",
+    "x": 642,
+    "y": 307.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hardware store",
+    "x": 664.9,
+    "y": 310.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallon's",
+    "x": 624,
+    "y": 290.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Concord Speakeasy",
+    "x": 654.8,
+    "y": 297,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Concord Savings and Loan",
+    "x": 654,
+    "y": 270.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Concord Civic Access",
+    "x": 635.8,
+    "y": 285.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Concord Church",
+    "x": 663.4,
+    "y": 331.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Weatherby Savings & Loan",
+    "x": 1321.6,
+    "y": 755.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pinelli's Bakery #2",
+    "x": 1168,
+    "y": 219.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Madden's Gym",
+    "x": 1133,
+    "y": 223.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "General Atomics outlet",
+    "x": 1135.5,
+    "y": 206.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Handy Eats",
+    "x": 1145,
+    "y": 203,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallon's #2",
+    "x": 1161.5,
+    "y": 210,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Back Alley Bowling",
+    "x": 1153,
+    "y": 206,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Hagen Command Center",
+    "x": 420.2,
+    "y": 891.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fort Hagen hangar",
+    "x": 332.5,
+    "y": 886,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Pinnacle Highrise",
+    "x": 1261,
+    "y": 980,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Joe's Spuckies",
+    "x": 1322.5,
+    "y": 992.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallon's #3",
+    "x": 1321.5,
+    "y": 913.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Congress Street garage",
+    "x": 1299.3,
+    "y": 924.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Broken monorail",
+    "x": 1280.4,
+    "y": 875.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Drumlin Diner #2",
+    "x": 1412.8,
+    "y": 721.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Boston Airport ruins",
+    "x": 1451.7,
+    "y": 889.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Wright's Inn",
+    "x": 1124.7,
+    "y": 846.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Walden Drugs #2",
+    "x": 907.6,
+    "y": 657.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Raider platforms",
+    "x": 1024.2,
+    "y": 817.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Longfellow Bridge",
+    "x": 1160.7,
+    "y": 876.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Ivy League Bridge",
+    "x": 1034.1,
+    "y": 923.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fallon's #4",
+    "x": 1127.1,
+    "y": 793.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "East C.I.T. raider camp",
+    "x": 1043.7,
+    "y": 860.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Camp Kendall",
+    "x": 1122.9,
+    "y": 865.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge raider base",
+    "x": 1015.8,
+    "y": 738.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge hardware store",
+    "x": 1034.9,
+    "y": 720.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge construction site",
+    "x": 1165.0,
+    "y": 766.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge church",
+    "x": 1130.3,
+    "y": 709.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Cambridge Academic Center",
+    "x": 916.4,
+    "y": 789.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Columbus Park",
+    "x": 1362.9,
+    "y": 901.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Long Wharf",
+    "x": 1402.5,
+    "y": 924.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Beacon Hill apartments",
+    "x": 1191.8,
+    "y": 885.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lil' Gentry playground",
+    "x": 1215.0,
+    "y": 909.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Trinity Church",
+    "x": 1137.0,
+    "y": 1020.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Jimbo's Tower",
+    "x": 1175.2,
+    "y": 1025.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Copley Station",
+    "x": 1076.9,
+    "y": 1017.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fentons Food Stuffs",
+    "x": 1348.5,
+    "y": 1535.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Guns Guns Guns",
+    "x": 1339.5,
+    "y": 1525.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy pharmacy",
+    "x": 1350.8,
+    "y": 1549,
+    "world": "commonwealth"
+  },
+  {
+    "name": "The Hole in the Wall",
+    "x": 1357.8,
+    "y": 1541,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy church",
+    "x": 1325.8,
+    "y": 1522,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy diner",
+    "x": 1332.8,
+    "y": 1530.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Quincy apartments",
+    "x": 1340,
+    "y": 1539.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Red Rocket #2",
+    "x": 1292.2,
+    "y": 1514.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Drumlin Diner #3",
+    "x": 1585.9,
+    "y": 545.6,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Drumlin Diner #4",
+    "x": 1819.6,
+    "y": 247.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sole Survivor's house",
+    "x": 501.0,
+    "y": 150.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Root cellar",
+    "x": 524.0,
+    "y": 142.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Old North Bridge",
+    "x": 515.5,
+    "y": 215.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Misty Lake",
+    "x": 611.3,
+    "y": 137.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Minutemen Monument",
+    "x": 544.8,
+    "y": 218.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Boston Church #2",
+    "x": 1384.0,
+    "y": 1224.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sleepwalker's place",
+    "x": 1258.5,
+    "y": 1188.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Marowski's chem lab",
+    "x": 1352,
+    "y": 1109.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Union Man's Circle",
+    "x": 1291.2,
+    "y": 1216.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sullivan's",
+    "x": 1452.5,
+    "y": 1194.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Brookline building",
+    "x": 958.0,
+    "y": 1019.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Evans Way Cul-de-Sac",
+    "x": 1024.5,
+    "y": 1093.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Founder's Triangle",
+    "x": 934.5,
+    "y": 1040.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Flagon Tunnel",
+    "x": 968.6,
+    "y": 1006.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fens Way station",
+    "x": 935.2,
+    "y": 1015.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Fens Cafe",
+    "x": 936.5,
+    "y": 1026.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "South Fens Tower",
+    "x": 995,
+    "y": 1095.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Raider back-alley camp",
+    "x": 1015.5,
+    "y": 997.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Hidden diner",
+    "x": 1015,
+    "y": 1079,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Freeway pileup",
+    "x": 1189.4,
+    "y": 1112.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Slocum's Joe",
+    "x": 1246.6,
+    "y": 1064.1,
+    "world": "commonwealth"
+  },
+  {
+    "name": "University Point Pharmacy",
+    "x": 1252.6,
+    "y": 1318.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "University Credit Union",
+    "x": 1278.8,
+    "y": 1308.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sedgwick Hall",
+    "x": 1311.7,
+    "y": 1296.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Milton parking garage",
+    "x": 1015,
+    "y": 1304.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Perception bobblehead",
+    "x": 667.7,
+    "y": 285.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Science bobblehead",
+    "x": 1258.3,
+    "y": 380.5,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Charisma bobblehead",
+    "x": 1508.9,
+    "y": 173.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Explosive bobblehead",
+    "x": 1517.0,
+    "y": 402.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Sneak bobblehead",
+    "x": 1613.2,
+    "y": 315.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Barter bobblehead",
+    "x": 1758.9,
+    "y": 415.0,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Repair bobblehead",
+    "x": 839.6,
+    "y": 608.3,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Energy weapons bobblehead",
+    "x": 405.7,
+    "y": 897.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Medicine bobblehead",
+    "x": 815.1,
+    "y": 1025.2,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Intelligence bobblehead",
+    "x": 1068.6,
+    "y": 1022.7,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Melee bobblehead",
+    "x": 1135.1,
+    "y": 1037.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Speech bobblehead",
+    "x": 1227.7,
+    "y": 980.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Strength bobblehead",
+    "x": 1250.2,
+    "y": 905.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Lock picking bobblehead",
+    "x": 1302.2,
+    "y": 817.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Big guns bobblehead",
+    "x": 729.2,
+    "y": 1535.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Small guns bobblehead",
+    "x": 992.6,
+    "y": 1450.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Unarmed bobblehead",
+    "x": 1399.1,
+    "y": 1391.8,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Endurance bobblehead",
+    "x": 1416.2,
+    "y": 1556.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Agility bobblehead",
+    "x": 1574.2,
+    "y": 1495.9,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Luck bobblehead",
+    "x": 1685.2,
+    "y": 1303.4,
+    "world": "commonwealth"
+  },
+  {
+    "name": "Dalton Farm",
+    "x": 911,
+    "y": 127,
+    "world": "farharbor"
+  },
+  {
+    "name": "Oceanarium",
+    "x": 716,
+    "y": 275,
+    "world": "farharbor"
+  },
+  {
+    "name": "National Park Visitors Center",
+    "x": 1190,
+    "y": 335,
+    "world": "farharbor"
+  },
+  {
+    "name": "Longfellow's Cabin",
+    "x": 1632,
+    "y": 379,
+    "world": "farharbor"
+  },
+  {
+    "name": "Far Harbor",
+    "x": 1648,
+    "y": 504,
+    "world": "farharbor"
+  },
+  {
+    "name": "Cliff's Edge Hotel",
+    "x": 1284,
+    "y": 460,
+    "world": "farharbor"
+  },
+  {
+    "name": "Vault 118",
+    "x": 1309,
+    "y": 459,
+    "world": "farharbor"
+  },
+  {
+    "name": "National Park Campground",
+    "x": 1284,
+    "y": 590,
+    "world": "farharbor"
+  },
+  {
+    "name": "Aldersea Day Spa",
+    "x": 984,
+    "y": 370,
+    "world": "farharbor"
+  },
+  {
+    "name": "National Park HQ",
+    "x": 1050,
+    "y": 501,
+    "world": "farharbor"
+  },
+  {
+    "name": "Eagle's Cove Tannery",
+    "x": 743,
+    "y": 495,
+    "world": "farharbor"
+  },
+  {
+    "name": "Eden Meadows Cinemas",
+    "x": 784,
+    "y": 683,
+    "world": "farharbor"
+  },
+  {
+    "name": "Horizon Flight 1207",
+    "x": 1120,
+    "y": 734,
+    "world": "farharbor"
+  },
+  {
+    "name": "Kitteredge Pass",
+    "x": 1188,
+    "y": 821,
+    "world": "farharbor"
+  },
+  {
+    "name": "Acadia",
+    "x": 1425,
+    "y": 884,
+    "world": "farharbor"
+  },
+  {
+    "name": "Wind Farm Maintenance",
+    "x": 1532,
+    "y": 865,
+    "world": "farharbor"
+  },
+  {
+    "name": "MS Azalea",
+    "x": 1841,
+    "y": 1125,
+    "world": "farharbor"
+  },
+  {
+    "name": "Harbor Grand Hotel",
+    "x": 1482,
+    "y": 1305,
+    "world": "farharbor"
+  },
+  {
+    "name": "Old Pond House",
+    "x": 1302,
+    "y": 1081,
+    "world": "farharbor"
+  },
+  {
+    "name": "Pine Crest Cavern",
+    "x": 1169,
+    "y": 1047,
+    "world": "farharbor"
+  },
+  {
+    "name": "Southwest Harbor",
+    "x": 1109,
+    "y": 1315,
+    "world": "farharbor"
+  },
+  {
+    "name": "Huntress Island",
+    "x": 1429,
+    "y": 1540,
+    "world": "farharbor"
+  },
+  {
+    "name": "Cranberry Island Docks",
+    "x": 1212,
+    "y": 1558,
+    "world": "farharbor"
+  },
+  {
+    "name": "Cranberry Island Supply Shed",
+    "x": 1365,
+    "y": 1717,
+    "world": "farharbor"
+  },
+  {
+    "name": "Cranberry Island Bog",
+    "x": 1294,
+    "y": 1662,
+    "world": "farharbor"
+  },
+  {
+    "name": "Waves Crest Orphanage",
+    "x": 1030,
+    "y": 1719,
+    "world": "farharbor"
+  },
+  {
+    "name": "Northwood Ridge Quarry",
+    "x": 918,
+    "y": 1593,
+    "world": "farharbor"
+  },
+  {
+    "name": "Brooke's Head Lighthouse",
+    "x": 860,
+    "y": 1823,
+    "world": "farharbor"
+  },
+  {
+    "name": "Fringe Cove docks",
+    "x": 645,
+    "y": 1665,
+    "world": "farharbor"
+  },
+  {
+    "name": "Ruined Church",
+    "x": 697,
+    "y": 1440,
+    "world": "farharbor"
+  },
+  {
+    "name": "Vim! Pop Factory",
+    "x": 986,
+    "y": 1406,
+    "world": "farharbor"
+  },
+  {
+    "name": "The Nucleus",
+    "x": 880,
+    "y": 1086,
+    "world": "farharbor"
+  },
+  {
+    "name": "Ruined Radio Tower",
+    "x": 867,
+    "y": 1176,
+    "world": "farharbor"
+  },
+  {
+    "name": "Haddock Cove",
+    "x": 390,
+    "y": 1413,
+    "world": "farharbor"
+  },
+  {
+    "name": "Children of Atom Shrine",
+    "x": 462,
+    "y": 1315,
+    "world": "farharbor"
+  },
+  {
+    "name": "Rock Point Camp",
+    "x": 265,
+    "y": 1275,
+    "world": "farharbor"
+  },
+  {
+    "name": "Zephyr Ridge Camp",
+    "x": 420,
+    "y": 1183,
+    "world": "farharbor"
+  },
+  {
+    "name": "Radiant Crest Shrine",
+    "x": 672,
+    "y": 1229,
+    "world": "farharbor"
+  },
+  {
+    "name": "Atom's Spring",
+    "x": 647,
+    "y": 1022,
+    "world": "farharbor"
+  },
+  {
+    "name": "Glowing Grove",
+    "x": 574,
+    "y": 1110,
+    "world": "farharbor"
+  },
+  {
+    "name": "Echo Lake Lumber",
+    "x": 592,
+    "y": 899,
+    "world": "farharbor"
+  },
+  {
+    "name": "Briney's Bait and Tackle",
+    "x": 550,
+    "y": 806,
+    "world": "farharbor"
+  },
+  {
+    "name": "Rayburn Point",
+    "x": 179,
+    "y": 886,
+    "world": "farharbor"
+  },
+  {
+    "name": "DiMA's Cache",
+    "x": 47,
+    "y": 803,
+    "world": "farharbor"
+  },
+  {
+    "name": "Beaver Creek Lanes",
+    "x": 1578,
+    "y": 645,
+    "world": "farharbor"
+  },
+  {
+    "name": "Evan's Home",
+    "x": 1128,
+    "y": 1941,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Hubologist's Camp",
+    "x": 854.2,
+    "y": 1732.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Dunmore Homestead",
+    "x": 484.4,
+    "y": 1680.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Grandchester Mystery Mansion",
+    "x": 592.2,
+    "y": 1799.5,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-World Junkyard",
+    "x": 551.5,
+    "y": 1485.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-World Power Plant",
+    "x": 184.5,
+    "y": 1061.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Wixon's Shovel Museum",
+    "x": 1545,
+    "y": 1415.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "World of Refreshment",
+    "x": 1320.2,
+    "y": 776,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-Cola Bottling Plant",
+    "x": 1345.8,
+    "y": 695.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Bradberton Overpass",
+    "x": 1628.5,
+    "y": 911.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-World Red Rocket",
+    "x": 1514,
+    "y": 625,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Bradberton",
+    "x": 1629,
+    "y": 391,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Morton Residence",
+    "x": 1777.2,
+    "y": 488,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Northpoint Reservoir",
+    "x": 1464,
+    "y": 194,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Safari Adventure Reptile House",
+    "x": 1048,
+    "y": 522.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Angry Anaconda",
+    "x": 1047.2,
+    "y": 411.5,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Safari Adventure",
+    "x": 1108.2,
+    "y": 540.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Cappy's Treehouse",
+    "x": 1101.8,
+    "y": 574,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Safari Adventure Primate House",
+    "x": 1184.5,
+    "y": 591,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Dry Rock Gulch",
+    "x": 897.6,
+    "y": 854.6,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Dry Rock Gulch Employee Area",
+    "x": 1032,
+    "y": 911,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Dry Rock Gulch theater",
+    "x": 929.5,
+    "y": 923.5,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Doc Phosphate's Saloon",
+    "x": 877,
+    "y": 852,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Mad Mulligan's Minecart Coaster",
+    "x": 945,
+    "y": 816,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Cola-cars Arena",
+    "x": 1231.4,
+    "y": 1471.5,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Bradberton Amphitheater",
+    "x": 1090.4,
+    "y": 1474.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-Town Market",
+    "x": 1151.1,
+    "y": 1474.6,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-Town USA",
+    "x": 1152.5,
+    "y": 1521.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "The Parlor",
+    "x": 1167.5,
+    "y": 1369,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Fizztop Mountain",
+    "x": 1201,
+    "y": 1248,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Fizztop Grille",
+    "x": 1155,
+    "y": 1241,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Kiddie Kingdom",
+    "x": 1338,
+    "y": 992.8,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Ferris Wheel",
+    "x": 1239,
+    "y": 1067,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Fun House",
+    "x": 1329.7,
+    "y": 934.3,
+    "world": "nukaworld"
+  },
+  {
+    "name": "King Cola's Castle",
+    "x": 1407.8,
+    "y": 944.2,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Galactic Zone",
+    "x": 886.4,
+    "y": 1207,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Starlight Interstellar Theater",
+    "x": 917.5,
+    "y": 1276.5,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Vault-Tec: Among the Stars",
+    "x": 857.1,
+    "y": 1293,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Starport Nuka",
+    "x": 851.1,
+    "y": 1212.4,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-Galaxy",
+    "x": 804,
+    "y": 1131,
+    "world": "nukaworld"
+  },
+  {
+    "name": "RobCo Battlezone",
+    "x": 921,
+    "y": 1133.4,
+    "world": "nukaworld"
+  },
+  {
+    "name": "Nuka-Station",
+    "x": 1210,
+    "y": 1715,
+    "world": "nukaworld"
+  }
+]
