@@ -11,6 +11,7 @@ export const DEFAULT_SETTINGS: Settings = {
   vignette: true,
   flicker: false,
   colourMarkers: true,
+  showWalkthrough: false,
   coordOverrides: {},
 };
 

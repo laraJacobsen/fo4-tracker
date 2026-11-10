@@ -677,3 +677,103 @@ button.link:focus-visible {
 .cat-grid .dim {
   margin-left: 6px;
 }
+
+/* ---------- Detailed walkthrough (wiki text) ---------- */
+.wt-toggle {
+  display: block;
+  width: 100%;
+  margin-top: 14px;
+  text-align: left;
+}
+
+.walkthrough {
+  margin-top: 8px;
+}
+
+.wt-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.wt-tabs button {
+  text-transform: none;
+}
+
+.wt-status {
+  margin: 8px 0;
+}
+
+.wt-section {
+  border-top: 1px solid var(--pip-faint);
+  padding: 4px 0;
+}
+
+.wt-section > summary {
+  cursor: pointer;
+  color: var(--pip-dim);
+  letter-spacing: 0.08em;
+  padding: 2px 0;
+}
+
+.wt-section[open] > summary {
+  color: var(--pip);
+}
+
+.wt-body {
+  line-height: 1.45;
+}
+
+.wt-body p {
+  margin: 6px 0;
+}
+
+.wt-body ul,
+.wt-body ol {
+  margin: 6px 0;
+  padding-left: 1.4em;
+}
+
+.wt-body li {
+  margin: 2px 0;
+}
+
+.wt-body h3,
+.wt-body h4,
+.wt-body h5 {
+  margin: 10px 0 4px;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.wt-body dt {
+  color: var(--pip-dim);
+}
+
+.wt-body dd {
+  margin: 0 0 4px 1em;
+}
+
+.wt-table {
+  overflow-x: auto;
+  margin: 6px 0;
+}
+
+.wt-table table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+.wt-table th,
+.wt-table td {
+  border: 1px solid var(--pip-faint);
+  padding: 2px 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.wt-credit {
+  margin-top: 10px;
+}

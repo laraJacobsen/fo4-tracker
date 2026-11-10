@@ -4,6 +4,7 @@ import { actions, useProfile, useSettings } from '../state/store';
 import { ENTRY_BY_ID } from '../lib/loadData';
 import { entryCoords } from '../lib/coords';
 import { Badges } from './Badges';
+import { Walkthrough } from './Walkthrough';
 
 interface Props {
   entry: Entry | undefined;
@@ -158,6 +159,15 @@ export function EntryDetail({ entry: e, onShowOnMap, onJump }: Props) {
           onChange={(ev) => actions.setNote(e.id, ev.target.value)}
         />
       </label>
+
+      <button
+        className={`wt-toggle${settings.showWalkthrough ? ' on' : ''}`}
+        aria-expanded={settings.showWalkthrough}
+        onClick={() => actions.updateSettings({ showWalkthrough: !settings.showWalkthrough })}
+      >
+        {settings.showWalkthrough ? '▾' : '▸'} DETAILED WALKTHROUGH
+      </button>
+      {settings.showWalkthrough && <Walkthrough key={e.id} entry={e} />}
     </aside>
   );
 }

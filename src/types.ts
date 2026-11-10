@@ -167,6 +167,8 @@ export interface Settings {
   vignette: boolean;
   flicker: boolean;
   colourMarkers: boolean;
+  /** Show the detailed wiki walkthrough in the details panel. */
+  showWalkthrough: boolean;
   /** Unset: the map image covers the whole wiki grid. */
   calibration?: Calibration;
   /** User-placed marker positions (map units), keyed by entry id. */
